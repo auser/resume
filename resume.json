@@ -1,0 +1,141 @@
+{
+  "name": "Ari Lerner",
+  "headline": "Founder \u2022 Technologist \u2022 Systems Builder",
+  "contact": {
+    "location": "Bay Area, California",
+    "website": "ari.io",
+    "github": "github.com/auser",
+    "linkedin": "linkedin.com/in/arilerner"
+  },
+  "narrative": {
+    "hook": "I build technical companies, technical leverage, and technical trust.",
+    "body": "My work sits at the intersection of product, systems, and education: building things people can use, building platforms teams can scale, and explaining complex technology in a way that creates adoption.\n\nThat combination has shown up across founder-led education businesses, cloud and innovation work, financial technology, AI/ML systems, and open-source engineering."
+  },
+  "stats": [
+    {
+      "label": "BOOKS",
+      "value": "9",
+      "note": "Technical books authored",
+      "color": "orange"
+    },
+    {
+      "label": "REPOS",
+      "value": "427+",
+      "note": "Public GitHub repositories",
+      "color": "accent"
+    },
+    {
+      "label": "STARS",
+      "value": "5k+",
+      "note": "Open-source traction",
+      "color": "cyan"
+    }
+  ],
+  "tags": [
+    "Founder and product-minded technical leader",
+    "Rust",
+    "Golang",
+    "TypeScript",
+    "JavaScript",
+    "Erlang",
+    "AI/ML",
+    "Open-source contributor",
+    "Cybersecurity practitioner",
+    "Cloud infrastructure and distributed systems builder"
+  ],
+  "experience": [
+    {
+      "title": "Founder",
+      "company": "Hologram",
+      "period": "2025 - Present",
+      "highlights": [
+        "Designing next-generation compute runtime and infrastructure systems focused on deterministic execution, zero-copy data movement, and Rust-first performance.",
+        "Building architecture around runtime design, workflow systems, and future-facing AI infrastructure."
+      ]
+    },
+    {
+      "title": "Chief Innovation Officer",
+      "company": "Herring Bank",
+      "period": "2024 - 2025",
+      "highlights": [
+        "Leading innovation and emerging technology initiatives across systems, AI/ML, cybersecurity, and platform strategy.",
+        "Driving product and operational outcomes through applied engineering and organizational leverage."
+      ]
+    },
+    {
+      "title": "Founder / Educator / Author",
+      "company": "Fullstack.io / newline",
+      "period": "",
+      "highlights": [
+        "Created and scaled developer education platforms with global reach.",
+        "Authored widely used programming books and built curriculum that helped developers adopt modern technologies."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Hologram Runtime",
+      "desc": "Geometric compute runtime with address-based execution, deterministic scheduling, and O(1) dispatch.",
+      "stack": "Rust \u2022 Runtime Design \u2022 Systems"
+    },
+    {
+      "name": "AgentZero",
+      "desc": "AI agent framework and orchestration AI agent platform, built with self-healing and security at the core.",
+      "stack": "AI \u2022 Orchestration \u2022 Systems"
+    },
+    {
+      "name": "Go MicroVM",
+      "desc": "Rust-based virtual machine for secure, deterministic execution of untrusted code, with a focus on performance and safety.",
+      "stack": "Cloud \u2022 Distributed Systems \u2022 Operations"
+    },
+    {
+      "name": "Security & Certificate Tooling",
+      "desc": "Open-source tooling spanning certificates, testing, infrastructure, and platform operations.",
+      "stack": "Security \u2022 Tooling \u2022 Infrastructure"
+    }
+  ],
+  "side_cards": [
+    {
+      "title": "HIGHLIGHTS",
+      "style": "bullets",
+      "items": [
+        "Founder-operator with a track record of building and scaling technical products and teams.",
+        "Educator and author with global impact across developer communities.",
+        "Open-source contributor across infrastructure, systems, and developer tooling.",
+        "Rust-first systems builder with product and platform instincts."
+      ]
+    },
+    {
+      "title": "EXPERTISE",
+      "style": "bullets",
+      "items": [
+        "Distributed systems",
+        "Cloud infrastructure",
+        "Workflow orchestration",
+        "Performance engineering",
+        "AI/ML systems",
+        "Cybersecurity"
+      ]
+    },
+    {
+      "title": "OPEN SOURCE SIGNAL",
+      "style": "stack",
+      "items": [
+        "GitHub: 427 repositories and 5k stars on public profile",
+        "Open-source work spans infrastructure, testing, certificates, RabbitMQ tooling, and cloud systems",
+        "Public bio emphasizes technologist, cybersecurity, and AI/ML"
+      ]
+    },
+    {
+      "title": "PUBLICATIONS",
+      "style": "bullets",
+      "items": [
+        "Fullstack React",
+        "ng-book",
+        "System Design Interview",
+        "Fullstack Next.js",
+        "Fullstack Deno"
+      ]
+    }
+  ]
+}
