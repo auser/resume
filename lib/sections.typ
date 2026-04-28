@@ -47,23 +47,15 @@
 
 #let proof-row(data) = [
   #let stats = get-list(data, "stats")
-  #if stats.len() == 3 [
+  #let cols = calc.min(stats.len(), 4)
+
+  #if stats.len() > 0 [
     #grid(
-      columns: (1fr, 1fr, 1fr),
+      columns: (..array.range(0, cols).map(_ => 1fr)),
       gutter: column-gap,
-      [#stat-tile(stats.at(0))], [#stat-tile(stats.at(1))], [#stat-tile(stats.at(2))],
+      row-gutter: column-gap,
+      ..stats.map(item => stat-tile(item)),
     )
-  ] else if stats.len() == 4 [
-    #grid(
-      columns: (1fr, 1fr, 1fr, 1fr),
-      gutter: column-gap,
-      [#stat-tile(stats.at(0))], [#stat-tile(stats.at(1))], [#stat-tile(stats.at(2))], [#stat-tile(stats.at(3))],
-    )
-  ] else [
-    #for item in stats [
-      #stat-tile(item)
-      #v(s-sm)
-    ]
   ]
 ]
 

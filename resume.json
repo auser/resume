@@ -74,7 +74,6 @@
         "Introduced AI-powered chatbots for customer support, reducing response time by 50%.",
         "Resolved critical vulnerabilities preventing $10M+ in potential losses.",
         "Led 7-person engineering team overhauling end-of-life legacy banking platform to modern cloud-native architecture while maintaining 99.9% uptime.",
-        "Automated 5 core banking features using AI/ML techniques, including transaction reconciliation, fraud detection, customer onboarding, compliance monitoring, and loan approval workflows; reduced manual effort by 80% and improved process accuracy by 95%.",
         "Led security team to achieve SOC 2 Type II compliance with 100% audit coverage.",
         "Designed and delivered customer acquisition and retention campaigns, driving measurable growth in customer base.",
         "Built and managed CI/CD pipeline for long-term management of 10+ microservices.",
@@ -90,9 +89,7 @@
         "Designed and implemented security framework for on-chain and multi-chain transactions.",
         "Developed comprehensive cybersecurity strategy achieving SOC 2 Type II compliance.",
         "Automated feature development with AI/ML, reducing development time by 50% and improving accuracy by 90% for 3 major product features.",
-        "Led 5-person engineering team delivering core infrastructure.",
         "Designed and implemented identity and access management systems.",
-        "Designed and documented physical policies and procedures for on-device security.",
         "Automated onboarding of new machines to the cluster, streamlining infrastructure expansion and management.",
         "Collaborated with key stakeholders to define and implement high-priority features for the product roadmap while maintaining a consistent, high-quality codebase.",
         "Advised congressional representatives on blockchain technology and cryptocurrency, providing expert guidance on industry trends and regulatory considerations."
@@ -101,7 +98,7 @@
     {
       "title": "Senior Technology Lead",
       "company": "Amazon Web Services",
-      "period": "Jan 2019 - Jan 2021",
+      "period": "Jan 2019 - May 2022",
       "highlights": [
         "Designed and implemented a distributed machine learning platform for real-time data processing and model training in the healthcare space.",
         "Designed and deployed AI/ML systems processing 100K+ data points daily for sports analytics.",
@@ -160,7 +157,6 @@
         "Built core infrastructure for ZenPayroll, now Gusto, focusing on security, scalability, and performance.",
         "Designed and implemented lightweight backend systems to support rapid product growth.",
         "Collaborated with UI and core engineering teams to deliver a seamless payroll experience.",
-        "Ensured infrastructure met compliance and security standards for sensitive PII payroll data.",
         "Contributed to bringing the product to market through cross-functional teamwork and agile development."
       ]
     },
@@ -173,8 +169,7 @@
         "Architected and built the initial versions of the AT&T API platform, empowering external developers to integrate with AT&T services.",
         "Designed and implemented the mHealth platform, enabling secure, scalable healthcare solutions and partnerships.",
         "Developed enterprise solutions including single sign-on services and a next-generation text messaging gateway.",
-        "Established and supported AT&T Labs in Palo Alto, Plano, and Tel Aviv, collaborating with global teams to bring new ideas to market.",
-        "Presented and pitched innovation initiatives to executive leadership, driving strategic decisions and product direction."
+        "Established and supported AT&T Labs in Palo Alto, Plano, and Tel Aviv, collaborating with global teams to bring new ideas to market."
       ]
     }
   ],
@@ -215,10 +210,10 @@
       "title": "HIGHLIGHTS",
       "style": "bullets",
       "items": [
-        "Founder-operator building platforms across compute, AI systems, and infrastructure.",
-        "Architect of high-performance systems spanning runtimes, control planes, and distributed workflows.",
+        "Founder building next-generation compute, AI, and infrastructure platforms.",
+        "Systems architect specializing in runtimes, control planes, and distributed execution.",
         "Educator and author reaching 50K+ developers with 100K+ books distributed globally.",
-        "Open-source contributor with 400+ repositories across systems, security, and developer tooling."
+        "Open-source contributor with 400+ repositories across systems, security, and tooling."
       ]
     },
     {
