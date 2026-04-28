@@ -175,3 +175,25 @@
     #text(size: fs-small, fill: muted)[More]
   ]
 ]
+
+#let impact-card(item) = [
+  #stack(
+    spacing: 4pt,
+    [
+      #text(weight: "bold")[#item.title]
+      #text(size: 9pt, fill: gray)[#item]
+      #text(size: 10pt)[#item.desc]
+    ]
+  )
+]
+
+#let system-card(item) = [
+  #stack(
+    spacing: 4pt,
+    [
+      #text(weight: "bold")[#item.name]
+      #text(size: 10pt)[#item.desc]
+      #text(size: 8pt, fill: gray)[#join(item.tags, " • ")]
+    ]
+  )
+]

@@ -131,3 +131,38 @@
     ]
   ]
 ]
+
+
+#let selected-impact(data) = [
+  #if "selected_impact" in data {
+    stack(
+      spacing: 12pt,
+      [
+        #text(weight: "bold", size: 14pt)[Selected Impact]
+
+        #grid(
+          columns: 4,
+          gutter: 12pt,
+          ..data.selected_impact.map(item => impact-card(item))
+        )
+      ]
+    )
+  }
+]
+
+#let systems-i-build(data) = [
+  #if "systems_i_build" in data {
+    stack(
+      spacing: 12pt,
+      [
+        #text(weight: "bold", size: 14pt)[Systems I Build]
+
+        #grid(
+          columns: 2,
+          gutter: 16pt,
+          ..data.systems_i_build.map(item => system-card(item))
+        )
+      ]
+    )
+  }
+]

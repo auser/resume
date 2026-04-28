@@ -52,11 +52,6 @@
       #experience-section(data)
     ]
 
-    #if get-list(data, "projects") != () [
-      #v(section-gap)
-      #projects-section(data)
-    ]
-
     #if has(data, "activity") [
       #v(section-gap)
       #activity-section(data)
@@ -66,3 +61,8 @@
     #side-column(data)
   ],
 )
+
+#if get-list(data, "projects") != () [
+  #v(section-gap)
+  #projects-section(data)
+]

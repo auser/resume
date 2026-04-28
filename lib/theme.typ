@@ -2,12 +2,12 @@
 
 #let font-stack = ("Inter", "Arial", "Helvetica Neue", "Helvetica")
 
-#let page-top = 18pt
+#let page-top = 28pt
 #let hero-height = 132pt
 
 #let page-bottom = 0.46in
 #let body-pad-x = 0.60in
-#let body-pad-top = 12pt
+#let body-pad-top = 16pt
 #let body-pad-bottom = 0.10in
 #let section-gap = 12pt
 #let column-gap = 16pt

@@ -1,7 +1,8 @@
 {
   "name": "Ari Lerner",
-  "headline": "Founder \u2022 Technologist \u2022 Systems Builder",
+  "headline": "Founder • Technologist • Systems Builder",
   "contact": {
+    "email": "me@ari.io",
     "location": "Bay Area, California",
     "website": "ari.io",
     "github": "github.com/auser",
@@ -9,39 +10,48 @@
   },
   "narrative": {
     "hook": "I build technical companies, technical leverage, and technical trust.",
-    "body": "My work sits at the intersection of product, systems, and education: building things people can use, building platforms teams can scale, and explaining complex technology in a way that creates adoption.\n\nThat combination has shown up across founder-led education businesses, cloud and innovation work, financial technology, AI/ML systems, and open-source engineering."
+    "body": "My work sits at the intersection of product, systems, security, AI/ML, and education: building things people can use, building platforms teams can scale, and explaining complex technology in a way that creates adoption.\n\nThat combination has shown up across founder-led education businesses, cloud and innovation work, financial technology, AI/ML systems, cybersecurity, and open-source engineering."
   },
   "stats": [
     {
       "label": "BOOKS",
-      "value": "9",
+      "value": "10",
       "note": "Technical books authored",
       "color": "orange"
+    },
+    {
+      "label": "STUDENTS",
+      "value": "50k+",
+      "note": "Developer education reach",
+      "color": "accent"
     },
     {
       "label": "REPOS",
       "value": "427+",
       "note": "Public GitHub repositories",
-      "color": "accent"
+      "color": "cyan"
     },
     {
       "label": "STARS",
       "value": "5k+",
       "note": "Open-source traction",
-      "color": "cyan"
+      "color": "purple"
     }
   ],
   "tags": [
     "Founder and product-minded technical leader",
+    "Cybersecurity",
+    "AI/ML",
     "Rust",
     "Golang",
+    "Python",
     "TypeScript",
     "JavaScript",
-    "Erlang",
-    "AI/ML",
-    "Open-source contributor",
-    "Cybersecurity practitioner",
-    "Cloud infrastructure and distributed systems builder"
+    "React",
+    "SQL",
+    "DevOps",
+    "Cloud infrastructure",
+    "Open-source contributor"
   ],
   "experience": [
     {
@@ -50,48 +60,154 @@
       "period": "2025 - Present",
       "highlights": [
         "Designing next-generation compute runtime and infrastructure systems focused on deterministic execution, zero-copy data movement, and Rust-first performance.",
-        "Building architecture around runtime design, workflow systems, and future-facing AI infrastructure."
+        "Building architecture around runtime design, workflow systems, secure execution, and future-facing AI infrastructure."
       ]
     },
     {
       "title": "Chief Innovation Officer",
       "company": "Herring Bank",
-      "period": "2024 - 2025",
+      "period": "Jan 2023 - Present",
       "highlights": [
-        "Leading innovation and emerging technology initiatives across systems, AI/ML, cybersecurity, and platform strategy.",
-        "Driving product and operational outcomes through applied engineering and organizational leverage."
+        "Led strategic innovation initiatives driving $10M+ in new product development.",
+        "Architected cloud-native, multi-tenant core banking platform serving 100K+ customers.",
+        "Built secure AI-native banking infrastructure reducing fraud by 85%.",
+        "Introduced AI-powered chatbots for customer support, reducing response time by 50%.",
+        "Resolved critical vulnerabilities preventing $10M+ in potential losses.",
+        "Led 7-person engineering team overhauling end-of-life legacy banking platform to modern cloud-native architecture while maintaining 99.9% uptime.",
+        "Automated 5 core banking features using AI/ML techniques, including transaction reconciliation, fraud detection, customer onboarding, compliance monitoring, and loan approval workflows; reduced manual effort by 80% and improved process accuracy by 95%.",
+        "Led security team to achieve SOC 2 Type II compliance with 100% audit coverage.",
+        "Designed and delivered customer acquisition and retention campaigns, driving measurable growth in customer base.",
+        "Built and managed CI/CD pipeline for long-term management of 10+ microservices.",
+        "Transitioned machine acquisition from manual to automated, reducing time to market by 80%."
       ]
     },
     {
-      "title": "Founder / Educator / Author",
-      "company": "Fullstack.io / newline",
-      "period": "",
+      "title": "Chief Technical Officer",
+      "company": "EthTrust",
+      "period": "Jan 2021 - Jan 2023",
       "highlights": [
-        "Created and scaled developer education platforms with global reach.",
-        "Authored widely used programming books and built curriculum that helped developers adopt modern technologies."
+        "Built and scaled blockchain-based financial infrastructure processing 300k/s in transactions.",
+        "Designed and implemented security framework for on-chain and multi-chain transactions.",
+        "Developed comprehensive cybersecurity strategy achieving SOC 2 Type II compliance.",
+        "Automated feature development with AI/ML, reducing development time by 50% and improving accuracy by 90% for 3 major product features.",
+        "Led 5-person engineering team delivering core infrastructure.",
+        "Designed and implemented identity and access management systems.",
+        "Designed and documented physical policies and procedures for on-device security.",
+        "Automated onboarding of new machines to the cluster, streamlining infrastructure expansion and management.",
+        "Collaborated with key stakeholders to define and implement high-priority features for the product roadmap while maintaining a consistent, high-quality codebase.",
+        "Advised congressional representatives on blockchain technology and cryptocurrency, providing expert guidance on industry trends and regulatory considerations."
+      ]
+    },
+    {
+      "title": "Senior Technology Lead",
+      "company": "Amazon Web Services",
+      "period": "Jan 2019 - Jan 2021",
+      "highlights": [
+        "Designed and implemented a distributed machine learning platform for real-time data processing and model training in the healthcare space.",
+        "Designed and deployed AI/ML systems processing 100K+ data points daily for sports analytics.",
+        "Utilized AWS to build scalable and secure infrastructure for internal and external customers.",
+        "Designed, implemented, and maintained a robust CI/CD pipeline automating testing, deployment, and monitoring for critical, high-availability systems.",
+        "Designed and implemented open-source software for internal and external customers, including distributed machine learning infrastructure for real-time data processing and model training.",
+        "Mentored 25+ junior engineers and consultants, improving team productivity by 40%.",
+        "Developed comprehensive technical documentation and interactive training programs, accelerating onboarding and empowering teams to adopt new systems efficiently.",
+        "Designed blockchain-based infrastructure for secure and transparent data within data platforms."
+      ]
+    },
+    {
+      "title": "Founder & CTO",
+      "company": "newline.io",
+      "period": "Jan 2012 - Jan 2021",
+      "highlights": [
+        "Founded and scaled technology education company to 50K+ students and $2M+ annual revenue.",
+        "Traveled across 5 continents, leading training sessions for 1,000+ students globally, ranging from the US Navy to continuing education programs in the US, Europe, Asia, and the Middle East.",
+        "Created and delivered cross-market training programs, including distributed remote training and mentorship for global teams.",
+        "Designed and led comprehensive curriculum covering full-stack development, cybersecurity, and machine learning.",
+        "Authored 10 technical textbooks with 100K+ copies sold globally in 6 different languages.",
+        "Created publishing platform for technical content collaboration between authors and readers.",
+        "Designed and implemented 5 open-source software projects ranging from interactive learning platforms to book-publishing curriculum design and publishing."
+      ]
+    },
+    {
+      "title": "Founder",
+      "company": "Fieldday Labs",
+      "period": "Jan 2015 - Aug 2017",
+      "highlights": [
+        "Developed computer vision algorithms to automate yield estimation and quality assessment for fresh produce, increasing forecasting accuracy for growers.",
+        "Designed and implemented a scalable web application enabling real-time crop monitoring, task management, and analytics for strawberry and blueberry farms.",
+        "Integrated IoT sensor data and satellite imagery to provide actionable insights for optimizing irrigation, fertilization, and harvest timing.",
+        "Collaborated with agronomists and field teams to translate agricultural workflows into intuitive digital tools, improving user adoption and operational transparency.",
+        "Built automated reporting and alerting systems to notify growers of anomalies and optimize resource allocation across multiple farm locations."
+      ]
+    },
+    {
+      "title": "Core Instructor",
+      "company": "Hack Reactor",
+      "period": "Jan 2013 - Aug 2015",
+      "highlights": [
+        "Taught full-stack development, ranging from frontend to backend, to 1,000+ in-person students.",
+        "Developed core software engineering curriculum for 1,000+ students.",
+        "Mentored students to successfully transition from the classroom to professional software engineering careers.",
+        "Created a software interview course to help students ace technical and soft skill interviews.",
+        "Designed and led cybersecurity curriculum for 1,000+ students focusing on penetration testing, vulnerability assessment, and threat intelligence.",
+        "Designed and taught machine learning curriculum for 1,000+ students focusing on deep learning, reinforcement learning, and natural language processing."
+      ]
+    },
+    {
+      "title": "Engineer",
+      "company": "ZenPayroll",
+      "period": "Jan 2012 - Dec 2013",
+      "highlights": [
+        "Built core infrastructure for ZenPayroll, now Gusto, focusing on security, scalability, and performance.",
+        "Designed and implemented lightweight backend systems to support rapid product growth.",
+        "Collaborated with UI and core engineering teams to deliver a seamless payroll experience.",
+        "Ensured infrastructure met compliance and security standards for sensitive PII payroll data.",
+        "Contributed to bringing the product to market through cross-functional teamwork and agile development."
+      ]
+    },
+    {
+      "title": "Innovation Evangelist",
+      "company": "AT&T",
+      "period": "Jan 2009 - Jan 2012",
+      "highlights": [
+        "Led internal and external innovation initiatives, driving adoption of cutting-edge technologies and fostering a culture of experimentation across AT&T.",
+        "Architected and built the initial versions of the AT&T API platform, empowering external developers to integrate with AT&T services.",
+        "Designed and implemented the mHealth platform, enabling secure, scalable healthcare solutions and partnerships.",
+        "Developed enterprise solutions including single sign-on services and a next-generation text messaging gateway.",
+        "Established and supported AT&T Labs in Palo Alto, Plano, and Tel Aviv, collaborating with global teams to bring new ideas to market.",
+        "Presented and pitched innovation initiatives to executive leadership, driving strategic decisions and product direction."
       ]
     }
   ],
   "projects": [
     {
-      "name": "Hologram Runtime",
-      "desc": "Geometric compute runtime with address-based execution, deterministic scheduling, and O(1) dispatch.",
-      "stack": "Rust \u2022 Runtime Design \u2022 Systems"
+      "name": "Hologram — Geometric Compute Runtime",
+      "desc": "Built a software-defined compute runtime that compiles AI and data workloads into deterministic execution plans, enabling constant-time execution across CPU, GPU, and WebGPU without runtime overhead.",
+      "stack": "Rust • Runtime • Systems"
     },
     {
       "name": "AgentZero",
-      "desc": "AI agent framework and orchestration AI agent platform, built with self-healing and security at the core.",
-      "stack": "AI \u2022 Orchestration \u2022 Systems"
+      "desc": "Built a self-evolving AI agent runtime in Rust where agents generate tools, coordinate as swarms, and persist learned behaviors across executions.",
+      "stack": "Rust • AI Systems"
     },
     {
-      "name": "Go MicroVM",
-      "desc": "Rust-based virtual machine for secure, deterministic execution of untrusted code, with a focus on performance and safety.",
-      "stack": "Cloud \u2022 Distributed Systems \u2022 Operations"
+      "name": "MVM — MicroVM Platform",
+      "desc": "Built a developer-first microVM platform for reproducible, secure workloads using Nix and sub-second boot virtualization across Firecracker and multiple backends.",
+      "stack": "Rust • Firecracker • Nix"
     },
     {
-      "name": "Security & Certificate Tooling",
-      "desc": "Open-source tooling spanning certificates, testing, infrastructure, and platform operations.",
-      "stack": "Security \u2022 Tooling \u2022 Infrastructure"
+      "name": "RoboRef",
+      "desc": "Built a real-time computer vision system for tracking referees and gameplay, enabling autonomous camera control and low-latency edge inference in dynamic environments.",
+      "stack": "Rust • Python • Computer Vision"
+    },
+    {
+      "name": "Fabric",
+      "desc": "Built a backend control plane that unifies identity, authorization, workflows, and AI routing into a single composable runtime, replacing traditional platform infrastructure.",
+      "stack": "Rust • Python • Systems"
+    },
+    {
+      "name": "rq",
+      "desc": "Built a Rust AST toolkit for querying, transforming, and generating code for documentation, tutorials, and developer workflows.",
+      "stack": "Rust • AST • Tooling"
     }
   ],
   "side_cards": [
@@ -99,10 +215,10 @@
       "title": "HIGHLIGHTS",
       "style": "bullets",
       "items": [
-        "Founder-operator with a track record of building and scaling technical products and teams.",
-        "Educator and author with global impact across developer communities.",
-        "Open-source contributor across infrastructure, systems, and developer tooling.",
-        "Rust-first systems builder with product and platform instincts."
+        "Founder-operator building platforms across compute, AI systems, and infrastructure.",
+        "Architect of high-performance systems spanning runtimes, control planes, and distributed workflows.",
+        "Educator and author reaching 50K+ developers with 100K+ books distributed globally.",
+        "Open-source contributor with 400+ repositories across systems, security, and developer tooling."
       ]
     },
     {
@@ -114,27 +230,58 @@
         "Workflow orchestration",
         "Performance engineering",
         "AI/ML systems",
-        "Cybersecurity"
+        "Cybersecurity",
+        "Fintech infrastructure",
+        "Developer education"
       ]
     },
     {
       "title": "OPEN SOURCE SIGNAL",
       "style": "stack",
       "items": [
-        "GitHub: 427 repositories and 5k stars on public profile",
-        "Open-source work spans infrastructure, testing, certificates, RabbitMQ tooling, and cloud systems",
-        "Public bio emphasizes technologist, cybersecurity, and AI/ML"
+        "GitHub: 427 repositories and 5k+ stars on public profile",
+        "Open-source work spans infrastructure, testing, certificates, RabbitMQ tooling, cloud systems, AST tooling, and AI/ML infrastructure",
+        "Public bio emphasizes technologist, cybersecurity, AI/ML, and open-source systems"
       ]
     },
     {
       "title": "PUBLICATIONS",
       "style": "bullets",
       "items": [
+        "Fullstack Rust",
         "Fullstack React",
+        "Line-of-business Mobile Apps",
+        "Security from Zero",
+        "Fullstack D3 Visualization",
         "ng-book",
-        "System Design Interview",
-        "Fullstack Next.js",
-        "Fullstack Deno"
+        "Fullstack Node.js",
+        "Fullstack Vue 3",
+        "Fullstack ML",
+        "Big Little Book on Blockchain"
+      ]
+    },
+    {
+      "title": "CORE COMPETENCIES",
+      "style": "stack",
+      "items": [
+        "Programming & Systems: Rust, Golang, Python, C/C++, Assembly, TypeScript/JavaScript, Java, SQL — focused on high-performance systems, runtime design, and low-level execution models",
+        "Distributed Systems & Infrastructure: AWS, Kubernetes, Docker, Terraform, Ansible, CI/CD — designing multi-tenant, fault-tolerant, and horizontally scalable platforms",
+        "AI/ML Systems: Machine learning, deep learning, reinforcement learning, NLP, computer vision — building real-time training, inference, and agent-based systems",
+        "Security & Compliance: Cryptography, threat modeling, secure system design, privacy, SOC 2 — implementing defense-in-depth architectures across applications and infrastructure",
+        "Workflow & Platform Architecture: DAG-based orchestration, control planes, event-driven systems, job scheduling, and backend system design",
+        "Leadership & Execution: Technical leadership, team building, mentorship, cross-functional execution, and driving strategy from architecture through delivery"
+      ]
+    },
+    {
+      "title": "INTERESTS",
+      "style": "bullets",
+      "items": [
+        "Distributed computation",
+        "Theoretical mathematics",
+        "User-driven development",
+        "Standup comedy",
+        "Officiating youth sports (Flag and Tackle football, basketball, and softball",
+        "Community building"
       ]
     }
   ]
