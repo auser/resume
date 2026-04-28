@@ -1,6 +1,7 @@
 #import "theme.typ": *
 #import "helpers.typ": *
 
+
 #let section-kicker(label) = [
   #text(size: fs-section, weight: "bold", tracking: tracking, fill: accent)[#label]
   #v(s-xs)
@@ -10,6 +11,35 @@
 #let bullet-line(content) = [
   #text(fill: accent)[•] #h(s-sm) #content
 ]
+
+#let contact-row(data) = {
+  let location = get(data.contact, "location", default: "")
+  let website = get(data.contact, "website", default: "")
+  let github = get(data.contact, "github", default: "")
+  let linkedin = get(data.contact, "linkedin", default: "")
+
+  text(size: fs-meta, fill: white-soft)[
+    #inline-list((
+      get(data.contact, "location", default: ""),
+      link-item(get(data.contact, "website", default: none)),
+      link-item(get(data.contact, "github", default: none)),
+      link-item(get(data.contact, "linkedin", default: none)),
+
+    ))
+  ]
+  // grid(
+  //   columns: (auto, auto, auto, auto, auto, auto, auto),
+  //   column-gutter: s-sm,
+  //   align: horizon,
+  //   text(size: fs-meta, fill: white-soft)[#location],
+  //   text(size: fs-meta, fill: white-soft)[•],
+  //   text(size: fs-meta, fill: white-soft)[#icon-link("globe.svg", website)],
+  //   text(size: fs-meta, fill: white-soft)[•],
+  //   text(size: fs-meta, fill: white-soft)[#icon-link("github.svg", github)],
+  //   text(size: fs-meta, fill: white-soft)[•],
+  //   text(size: fs-meta, fill: white-soft)[#icon-link("linkedin.svg", linkedin)],
+  // )
+}
 
 #let stat-tile(item) = rect(
   fill: surface,

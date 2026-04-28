@@ -2,11 +2,19 @@
   "name": "Ari Lerner",
   "headline": "Founder • Technologist • Systems Builder",
   "contact": {
-    "email": "me@ari.io",
-    "location": "Bay Area, California",
-    "website": "ari.io",
-    "github": "github.com/auser",
-    "linkedin": "linkedin.com/in/arilerner"
+    "location": "San Francisco, CA",
+    "website": {
+      "url": "https://ari.io",
+      "label": "ari.io"
+    },
+    "github": {
+      "url": "https://github.com/auser",
+      "label": "github/auser"
+    },
+    "linkedin": {
+      "url": "https://linkedin.com/in/arilerner",
+      "label": "LinkedIn/in/arilerner"
+    }
   },
   "narrative": {
     "hook": "I build technical companies, technical leverage, and technical trust.",

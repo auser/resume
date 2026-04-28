@@ -20,16 +20,31 @@
       #v(s-sm)
       #text(size: fs-role, weight: "semibold", fill: accent-soft)[#get(data, "headline", default: "")]
       #v(s-md)
-      #text(size: fs-meta, fill: white-soft)[
-        #get(data.contact, "location", default: "")
-        #h(s-sm)•#h(s-sm)
-        #get(data.contact, "website", default: "")
-        #h(s-sm)•#h(s-sm)
-        #get(data.contact, "github", default: "")
-        #h(s-sm)•#h(s-sm)
-        #get(data.contact, "linkedin", default: "")
-      ]
+      #contact-row(data)
     ],
+    // [
+    //   #text(size: fs-name, weight: "bold", fill: white)[#get(data, "name", default: "")]
+    //   #v(s-sm)
+    //   #text(size: fs-role, weight: "semibold", fill: accent-soft)[#get(data, "headline", default: "")]
+    //   #v(s-md)
+    //   #contact-row(data)
+    //   // #text(size: fs-meta, fill: white-soft)[
+    //   //   #get(data.contact, "location", default: "")
+    //   //   #h(s-sm)•#h(s-sm)
+
+    //   //   #icon-link("globe.svg",
+    //   //     get(data.contact, "website", default: "")
+    //   //   )
+    //   //   #h(s-sm)•#h(s-sm)
+    //   //   #icon-link("github.svg", 
+    //   //     get(data.contact, "github", default: "")
+    //   //   )
+    //   //   #h(s-sm)•#h(s-sm)
+    //   //   #icon-link("linkedin.svg",
+    //   //     get(data.contact, "linkedin", default: "")
+    //   //   )
+    //   // ]
+    // ],
     [
       #rect(
         fill: hero-panel-fill,
