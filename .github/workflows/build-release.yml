@@ -1,0 +1,41 @@
+name: Build and Release Resume
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Typst
+        uses: typst-community/setup-typst@v4
+
+      - name: Build PDF
+        run: |
+          mkdir -p build
+          typst compile resume.typ build/ari-lerner-resume.pdf
+
+      - name: Generate release tag
+        id: tag
+        env:
+          SHA: ${{ github.sha }}
+        run: echo "tag=build-$(date -u +'%Y%m%d-%H%M%S')-${SHA::7}" >> "$GITHUB_OUTPUT"
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        env:
+          COMMIT_SHA: ${{ github.sha }}
+        with:
+          tag_name: ${{ steps.tag.outputs.tag }}
+          name: Resume ${{ steps.tag.outputs.tag }}
+          body: |
+            Auto-built from commit.
+
+            Download the PDF below.
+          files: build/ari-lerner-resume.pdf
