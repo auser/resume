@@ -64,6 +64,16 @@
   "experience": [
     {
       "title": "Founder",
+      "company": "Tinylabs",
+      "period": "2019 - Present",
+      "highlights": [
+        "Design and build AgentZero, an AI-assistant agent designed to securely and safely handle sensitive data",
+        "Architect MVM, a security-first infrastructure",
+        "Built ComputerVision athlete training for youth sports."
+      ]
+    },
+    {
+      "title": "Founder",
       "company": "Hologram",
       "period": "2025 - Present",
       "highlights": [
@@ -74,7 +84,7 @@
     {
       "title": "Chief Innovation Officer",
       "company": "Herring Bank",
-      "period": "Jan 2023 - Present",
+      "period": "2023 - 2025",
       "highlights": [
         "Led strategic innovation initiatives driving $10M+ in new product development.",
         "Architected cloud-native, multi-tenant core banking platform serving 100K+ customers.",
