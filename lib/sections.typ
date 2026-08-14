@@ -52,7 +52,7 @@
         radius: r-lg,
         inset: 14pt,
       )[
-        #text(size: fs-kicker, weight: "bold", tracking: tracking, fill: accent-soft)[FOUNDER THESIS]
+        #text(size: fs-kicker, weight: "bold", tracking: tracking, fill: accent-soft)[#get(data.narrative, "hook_label", default: "WHAT I BUILD")]
         #v(s-sm)
         #text(size: fs-body, weight: "bold", fill: white)[#get(data.narrative, "hook", default: "")]
       ]

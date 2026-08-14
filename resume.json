@@ -21,6 +21,7 @@
     }
   },
   "narrative": {
+    "hook_label": "WHAT I BUILD",
     "hook": "Over three decades, I still build the hard part myself: the mathematics, the runtime, and the security boundary.",
     "body": "I build the runtimes AI runs on: content-addressed compute substrates, constant-time inference, and security boundaries strong enough to contain agents executing untrusted code. Three decades of going down rather than sideways — from applications, to platforms, to the formal structures underneath them — and today that means proving mathematics in Lean 4 and compiling it into Rust that runs on bare metal.\n\nI studied theoretical mathematics with an emphasis on harmonics, computer science, and theater arts — the exact toolkit for this work: resonance algebras underneath the runtime, and the ability to make a room care about them. Along the way I built a developer-education company to 50K+ students and shipped open source developers actually run."
   },
