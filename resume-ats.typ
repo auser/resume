@@ -46,6 +46,10 @@
 
 // ---- Summary ------------------------------------------------------------
 #section("SUMMARY")
+#if has(data.narrative, "hook") [
+  #text(weight: "bold")[#data.narrative.hook]
+
+]
 #get(data.narrative, "body", default: "")
 
 // ---- Skills -------------------------------------------------------------
