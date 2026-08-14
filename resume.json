@@ -107,7 +107,7 @@
     {
       "title": "Chief Technical Officer",
       "company": "EthTrust",
-      "period": "Jan 2021 - Jan 2023",
+      "period": "2021 - 2023",
       "highlights": [
         "Built and scaled blockchain financial infrastructure processing 300k transactions/second.",
         "Designed the security framework for on-chain and multi-chain transactions, plus identity and access management.",
@@ -118,7 +118,7 @@
     {
       "title": "Senior Technology Lead",
       "company": "Amazon Web Services",
-      "period": "Jan 2019 - May 2022",
+      "period": "2019 - 2022",
       "highlights": [
         "Designed a distributed machine learning platform for real-time data processing and model training in healthcare.",
         "Deployed AI/ML systems processing 100K+ data points daily for sports analytics.",
@@ -130,7 +130,7 @@
     {
       "title": "Founder & CTO",
       "company": "newline.io (formerly Fullstack.io)",
-      "period": "Jan 2012 - Jan 2021",
+      "period": "2012 - 2021",
       "highlights": [
         "Founded and scaled the company to 50K+ students and $2M+ annual revenue.",
         "Ran developer relations as a founder-led function: built the ng-newsletter community, published tutorial series and sample code that developers cloned by the thousand, and turned that audience into the company's primary acquisition channel.",
@@ -142,7 +142,7 @@
     {
       "title": "Founder",
       "company": "Fieldday Labs",
-      "period": "Jan 2015 - Aug 2017",
+      "period": "2015 - 2017",
       "highlights": [
         "Developed computer vision algorithms automating yield estimation and quality assessment for fresh produce.",
         "Built a web platform for real-time crop monitoring, task management, and analytics across strawberry and blueberry farms.",
@@ -153,7 +153,7 @@
     {
       "title": "Core Instructor",
       "company": "Hack Reactor",
-      "period": "Jan 2013 - Aug 2015",
+      "period": "2013 - 2015",
       "highlights": [
         "Taught full-stack development to 1,000+ in-person students and wrote the core engineering curriculum.",
         "Designed and led the cybersecurity curriculum covering penetration testing, vulnerability assessment, and threat intelligence.",
@@ -164,7 +164,7 @@
     {
       "title": "Engineer",
       "company": "ZenPayroll (now Gusto)",
-      "period": "Jan 2012 - Dec 2013",
+      "period": "2012 - 2013",
       "highlights": [
         "Built core infrastructure focused on security, scalability, and performance.",
         "Designed lightweight backend systems supporting rapid product growth.",
@@ -174,7 +174,7 @@
     {
       "title": "Innovation Evangelist",
       "company": "AT&T",
-      "period": "Jan 2009 - Jan 2012",
+      "period": "2009 - 2012",
       "highlights": [
         "Architected and built the initial AT&T API platform, opening AT&T services to external developers.",
         "Ran developer evangelism internally and externally, driving adoption of new technology and a culture of experimentation.",
