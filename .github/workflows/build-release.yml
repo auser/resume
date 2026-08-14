@@ -38,9 +38,5 @@ jobs:
           body: |
             Auto-built from commit.
 
-            - `ari-lerner-resume.pdf` — designed version, for humans.
-            - `ari-lerner-resume-ats.pdf` — single-column, parser-safe version for
-              application portals and automated screeners.
-          files: |
-            build/ari-lerner-resume.pdf
-            build/ari-lerner-resume-ats.pdf
+            Download the PDF below.
+          files: build/ari-lerner-resume.pdf

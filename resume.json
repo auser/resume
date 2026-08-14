@@ -38,14 +38,14 @@
       "color": "accent"
     },
     {
-      "label": "STARS",
-      "value": "5k+",
-      "note": "Across 437 public repositories",
+      "label": "SECURITY",
+      "value": "18",
+      "note": "CI-enforced security claims in MVM",
       "color": "purple"
     },
     {
       "label": "BOOKS",
-      "value": "9",
+      "value": "9+",
       "note": "Authored, 100K+ copies in 6 languages",
       "color": "orange"
     }
@@ -135,7 +135,7 @@
         "Founded and scaled the company to 50K+ students and $2M+ annual revenue.",
         "Ran developer relations as a founder-led function: built the ng-newsletter community, published tutorial series and sample code that developers cloned by the thousand, and turned that audience into the company's primary acquisition channel.",
         "Evangelized on stage and in the field across 5 continents, training 1,000+ developers in person — from the US Navy to continuing-education programs across the US, Europe, Asia, and the Middle East.",
-        "Authored 10 technical textbooks with 100K+ copies sold in 6 languages, and built the collaborative publishing platform authors and readers used to produce them.",
+        "Authored 9+ technical textbooks with 100K+ copies sold in 6 languages, and built the collaborative publishing platform authors and readers used to produce them.",
         "Designed curriculum spanning full-stack development, cybersecurity, and machine learning, and open-sourced 5 projects supporting it."
       ]
     },
@@ -264,9 +264,9 @@
       "style": "stack",
       "items": [
         "Specs and proofs are public: uor.foundation · UOR-Foundation/F1",
-        "mvm (35★) — secure microVM platform, with mvmd for fleet orchestration and rvproxy for networking",
-        "UOR-Framework (22★) + PRISM (18★) — the formal UOR model and its coordinate system",
-        "uor-r4 (10★) + F₁ (8★) — transformerless compilation; mechanized arithmetic geometry in Lean 4",
+        "mvm — secure microVM platform, with mvmd for fleet orchestration and rvproxy for networking",
+        "UOR-Framework + PRISM — the formal UOR model and its coordinate system",
+        "uor-r4 + F₁ — transformerless compilation; mechanized arithmetic geometry in Lean 4",
         "Crates: uor-foundation (7.4k downloads), rq (6.0k), hologram (2.3k), uor-addr (1.6k)"
       ]
     },
