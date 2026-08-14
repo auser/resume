@@ -119,7 +119,7 @@
     {
       "title": "Senior Technology Lead",
       "company": "Amazon Web Services",
-      "period": "2019 - 2022",
+      "period": "2019 - 2021",
       "highlights": [
         "Designed a distributed machine learning platform for real-time data processing and model training in healthcare.",
         "Deployed AI/ML systems processing 100K+ data points daily for sports analytics.",
@@ -181,16 +181,6 @@
         "Ran developer evangelism internally and externally, driving adoption of new technology and a culture of experimentation.",
         "Designed the mHealth platform for secure, scalable healthcare solutions and partnerships.",
         "Established and supported AT&T Labs in Palo Alto, Plano, and Tel Aviv."
-      ]
-    },
-    {
-      "title": "Co-founder & Senior Staff Engineer",
-      "company": "Citrusbyte",
-      "period": "2007 - 2009",
-      "highlights": [
-        "Co-founded a software consultancy and built its engineering practice as a hands-on senior staff engineer.",
-        "Delivered custom production systems across a rotating client portfolio, setting the architecture and engineering standards the team worked to.",
-        "Built the consulting and delivery model I later reused to found newline.io."
       ]
     }
   ],
