@@ -21,6 +21,7 @@
   text(size: fs-meta, fill: white-soft)[
     #inline-list((
       get(data.contact, "location", default: ""),
+      link-item(get(data.contact, "email", default: none)),
       link-item(get(data.contact, "website", default: none)),
       link-item(get(data.contact, "github", default: none)),
       link-item(get(data.contact, "linkedin", default: none)),
@@ -110,32 +111,46 @@
   ]
 ]
 
-#let side-card(card) = rect(
+#let side-card(card) = block(
+  breakable: true,
+  width: 100%,
   fill: surface,
   stroke: line-thin + rule,
   radius: r-lg,
   inset: 13pt,
 )[
-  #section-kicker(get(card, "title", default: ""))
-  #v(s-sm)
-
   #let style = get(card, "style", default: "bullets")
   #let items = get-list(card, "items")
+  #let last-idx = items.len() - 1
 
-  #if style == "bullets" [
-    #for item in items [
-      #bullet-line(item)
-      #v(s-xs)
-    ]
+  #let render-item(item) = if style == "bullets" [
+    #bullet-line(item)
   ] else [
-    #for item in items [
-      #text(size: fs-body, fill: ink)[#item]
-      #if item != items.last() [
-        #v(s-sm)
-        #line(length: 100%, stroke: line-thin + rule)
-        #v(s-sm)
-      ]
+    #text(size: fs-body, fill: ink)[#item]
+  ]
+
+  #let separator(idx) = if style == "bullets" [
+    #v(s-xs)
+  ] else if idx < last-idx [
+    #v(s-sm)
+    #line(length: 100%, stroke: line-thin + rule)
+    #v(s-sm)
+  ]
+
+  // Keep the kicker glued to its first item so a page break can never
+  // strand a lone card header at the bottom of a column.
+  #block(breakable: false)[
+    #section-kicker(get(card, "title", default: ""))
+    #v(s-sm)
+    #if items.len() > 0 [
+      #render-item(items.first())
+      #separator(0)
     ]
+  ]
+
+  #for pair in items.slice(1).enumerate() [
+    #render-item(pair.last())
+    #separator(pair.first() + 1)
   ]
 ]
 

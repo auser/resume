@@ -13,7 +13,7 @@
   ),
 )[
   #grid(
-    columns: (1.6fr, 1fr),
+    columns: (1.95fr, 1fr),
     gutter: hero-gap,
     [
       #text(size: fs-name, weight: "bold", fill: white)[#get(data, "name", default: "")]

@@ -1,8 +1,12 @@
 {
   "name": "Ari Lerner",
-  "headline": "Founder • Technologist • Systems Builder",
+  "headline": "Bitmover • Founder • Systems Architect • Mathematics, infrastructure, and cybersecurity",
   "contact": {
     "location": "San Francisco, CA",
+    "email": {
+      "url": "mailto:me@ari.io",
+      "label": "me@ari.io"
+    },
     "website": {
       "url": "https://ari.io",
       "label": "ari.io"
@@ -13,14 +17,20 @@
     },
     "linkedin": {
       "url": "https://linkedin.com/in/arilerner",
-      "label": "LinkedIn/in/arilerner"
+      "label": "in/arilerner"
     }
   },
   "narrative": {
-    "hook": "I build technical companies, technical leverage, and technical trust.",
-    "body": "My work sits at the intersection of product, systems, security, AI/ML, and education: building things people can use, building platforms teams can scale, and explaining complex technology in a way that creates adoption.\n\nThat combination has shown up across founder-led education businesses, cloud and innovation work, financial technology, AI/ML systems, cybersecurity, and open-source engineering."
+    "hook": "Thirty years in, I still build the hard part myself: the mathematics, the runtime, and the security boundary.",
+    "body": "I have spent three decades going down rather than sideways — from applications, to platforms, to the runtimes and formal structures underneath them. Today that means proving mathematics in Lean 4 and compiling it into Rust that runs on bare metal, and designing security boundaries strong enough to contain autonomous AI agents executing untrusted code.\n\nI studied theoretical mathematics with an emphasis on harmonics, computer science, and theater arts — which turned out to be the exact toolkit for this work: resonance algebras underneath the runtime, and the ability to stand in front of a room and make people care about them. Along the way I built a developer-education company to 50K+ students, wrote ten books, and shipped open source developers actually run."
   },
   "stats": [
+    {
+      "label": "YEARS",
+      "value": "30+",
+      "note": "Shipping production software",
+      "color": "cyan"
+    },
     {
       "label": "BOOKS",
       "value": "10",
@@ -34,51 +44,51 @@
       "color": "accent"
     },
     {
-      "label": "REPOS",
-      "value": "427+",
-      "note": "Public GitHub repositories",
-      "color": "cyan"
-    },
-    {
       "label": "STARS",
       "value": "5k+",
-      "note": "Open-source traction",
+      "note": "Across 437 public repositories",
       "color": "purple"
     }
   ],
   "tags": [
     "Founder and product-minded technical leader",
+    "Applied mathematics",
+    "Formal methods (Lean 4)",
     "Cybersecurity",
-    "AI/ML",
+    "AI/ML systems",
+    "Developer relations",
     "Rust",
+    "Erlang",
     "Golang",
     "Python",
     "TypeScript",
-    "JavaScript",
     "React",
-    "SQL",
-    "DevOps",
     "Cloud infrastructure",
-    "Open-source contributor"
+    "Open source"
   ],
   "experience": [
-    {
-      "title": "Founder",
-      "company": "Tinylabs",
-      "period": "2019 - Present",
-      "highlights": [
-        "Design and build AgentZero, an AI-assistant agent designed to securely and safely handle sensitive data",
-        "Architect MVM, a security-first infrastructure",
-        "Built ComputerVision athlete training for youth sports."
-      ]
-    },
     {
       "title": "Founder",
       "company": "Hologram",
       "period": "2025 - Present",
       "highlights": [
-        "Designing next-generation compute runtime and infrastructure systems focused on deterministic execution, zero-copy data movement, and Rust-first performance.",
-        "Building architecture around runtime design, workflow systems, secure execution, and future-facing AI infrastructure."
+        "Authored the mathematical core — a 12,288-element (48×256) prime-structure boundary with a 96-class resonance algebra, unity constraints, and conservation invariants — formalized in Lean 4 and exported over a stable C ABI to Rust, Go, Python, and Node.",
+        "Co-inventor on the patent-pending inference method — \"Systems and Methods for Holographic Computing\", U.S. provisional filed February 2026: identical work is content-addressed once and never recomputed, and finite-domain functions dispatch as O(1) lookup tables — ~28× on bf16 GELU, bit-identical.",
+        "Invented a transformerless inference path: transformer language models cross-compiled into multiplication-free artifacts whose entire runtime arithmetic is add / shift / xor / compare / table-read, at 28.1× compression and a certified residual.",
+        "Built hologram-ai, compiling Hugging Face models into self-contained applications with deterministic CPU-only inference — no MatMul, no GPU, no ONNX, no network at runtime.",
+        "Contribute to MIT's Project NANDA (Networked Agents and Decentralized AI): authored the UOR-NANDA interoperability profile inside the UOR Standards Program and presented \"The Object Internet\" at NANDA 2026."
+      ]
+    },
+    {
+      "title": "Founder",
+      "company": "Tinylabs",
+      "period": "2019 - Present",
+      "highlights": [
+        "Architected MVM, a security-first microVM platform where workloads boot their own kernel with no guest network device at all — the host originates every connection, so default-deny egress is mechanically enforced rather than documented.",
+        "Defined 18 numbered security claims — signed execution plans, chain-signed audit logs, dm-verity boot, sealed production images — each bound to executable witnesses so a claim cannot regress without failing CI.",
+        "Built secret substitution and PII redaction over vsock so raw credentials never reach the guest, including detection of secrets split across frame boundaries.",
+        "Designed the AI-agent containment surface: run-shaped capability grants that give autonomous agents somewhere to execute model-generated code without trusting it.",
+        "Built RoboRef, a real-time computer vision system for youth sports — referee and gameplay tracking with autonomous camera control and low-latency edge inference."
       ]
     },
     {
@@ -86,16 +96,11 @@
       "company": "Herring Bank",
       "period": "2023 - 2025",
       "highlights": [
-        "Led strategic innovation initiatives driving $10M+ in new product development.",
-        "Architected cloud-native, multi-tenant core banking platform serving 100K+ customers.",
-        "Built secure AI-native banking infrastructure reducing fraud by 85%.",
-        "Introduced AI-powered chatbots for customer support, reducing response time by 50%.",
-        "Resolved critical vulnerabilities preventing $10M+ in potential losses.",
-        "Led 7-person engineering team overhauling end-of-life legacy banking platform to modern cloud-native architecture while maintaining 99.9% uptime.",
-        "Led security team to achieve SOC 2 Type II compliance with 100% audit coverage.",
-        "Designed and delivered customer acquisition and retention campaigns, driving measurable growth in customer base.",
-        "Built and managed CI/CD pipeline for long-term management of 10+ microservices.",
-        "Transitioned machine acquisition from manual to automated, reducing time to market by 80%."
+        "Led strategic innovation driving $10M+ in new product development.",
+        "Architected a cloud-native, multi-tenant core banking platform serving 100K+ customers.",
+        "Built secure AI-native banking infrastructure that reduced fraud by 85%.",
+        "Resolved critical vulnerabilities preventing $10M+ in potential losses, and led the team to SOC 2 Type II with 100% audit coverage.",
+        "Led a 7-person team replacing an end-of-life core banking platform while maintaining 99.9% uptime."
       ]
     },
     {
@@ -103,14 +108,10 @@
       "company": "EthTrust",
       "period": "Jan 2021 - Jan 2023",
       "highlights": [
-        "Built and scaled blockchain-based financial infrastructure processing 300k/s in transactions.",
-        "Designed and implemented security framework for on-chain and multi-chain transactions.",
-        "Developed comprehensive cybersecurity strategy achieving SOC 2 Type II compliance.",
-        "Automated feature development with AI/ML, reducing development time by 50% and improving accuracy by 90% for 3 major product features.",
-        "Designed and implemented identity and access management systems.",
-        "Automated onboarding of new machines to the cluster, streamlining infrastructure expansion and management.",
-        "Collaborated with key stakeholders to define and implement high-priority features for the product roadmap while maintaining a consistent, high-quality codebase.",
-        "Advised congressional representatives on blockchain technology and cryptocurrency, providing expert guidance on industry trends and regulatory considerations."
+        "Built and scaled blockchain financial infrastructure processing 300k transactions/second.",
+        "Designed the security framework for on-chain and multi-chain transactions, plus identity and access management.",
+        "Developed the cybersecurity strategy that achieved SOC 2 Type II compliance.",
+        "Automated feature development with AI/ML, cutting development time 50% and improving accuracy 90% across 3 major features."
       ]
     },
     {
@@ -118,28 +119,23 @@
       "company": "Amazon Web Services",
       "period": "Jan 2019 - May 2022",
       "highlights": [
-        "Designed and implemented a distributed machine learning platform for real-time data processing and model training in the healthcare space.",
-        "Designed and deployed AI/ML systems processing 100K+ data points daily for sports analytics.",
-        "Utilized AWS to build scalable and secure infrastructure for internal and external customers.",
-        "Designed, implemented, and maintained a robust CI/CD pipeline automating testing, deployment, and monitoring for critical, high-availability systems.",
-        "Designed and implemented open-source software for internal and external customers, including distributed machine learning infrastructure for real-time data processing and model training.",
-        "Mentored 25+ junior engineers and consultants, improving team productivity by 40%.",
-        "Developed comprehensive technical documentation and interactive training programs, accelerating onboarding and empowering teams to adopt new systems efficiently.",
-        "Designed blockchain-based infrastructure for secure and transparent data within data platforms."
+        "Designed a distributed machine learning platform for real-time data processing and model training in healthcare.",
+        "Deployed AI/ML systems processing 100K+ data points daily for sports analytics.",
+        "Built scalable, secure AWS infrastructure and the CI/CD pipeline automating test, deploy, and monitoring for high-availability systems.",
+        "Released open-source distributed ML infrastructure used by internal and external customers.",
+        "Mentored 25+ junior engineers and consultants, improving team productivity by 40%."
       ]
     },
     {
       "title": "Founder & CTO",
-      "company": "newline.io",
+      "company": "newline.io (formerly Fullstack.io)",
       "period": "Jan 2012 - Jan 2021",
       "highlights": [
-        "Founded and scaled technology education company to 50K+ students and $2M+ annual revenue.",
-        "Traveled across 5 continents, leading training sessions for 1,000+ students globally, ranging from the US Navy to continuing education programs in the US, Europe, Asia, and the Middle East.",
-        "Created and delivered cross-market training programs, including distributed remote training and mentorship for global teams.",
-        "Designed and led comprehensive curriculum covering full-stack development, cybersecurity, and machine learning.",
-        "Authored 10 technical textbooks with 100K+ copies sold globally in 6 different languages.",
-        "Created publishing platform for technical content collaboration between authors and readers.",
-        "Designed and implemented 5 open-source software projects ranging from interactive learning platforms to book-publishing curriculum design and publishing."
+        "Founded and scaled the company to 50K+ students and $2M+ annual revenue.",
+        "Ran developer relations as a founder-led function: built the ng-newsletter community, published tutorial series and sample code that developers cloned by the thousand, and turned that audience into the company's primary acquisition channel.",
+        "Evangelized on stage and in the field across 5 continents, training 1,000+ developers in person — from the US Navy to continuing-education programs across the US, Europe, Asia, and the Middle East.",
+        "Authored 10 technical textbooks with 100K+ copies sold in 6 languages, and built the collaborative publishing platform authors and readers used to produce them.",
+        "Designed curriculum spanning full-stack development, cybersecurity, and machine learning, and open-sourced 5 projects supporting it."
       ]
     },
     {
@@ -147,11 +143,10 @@
       "company": "Fieldday Labs",
       "period": "Jan 2015 - Aug 2017",
       "highlights": [
-        "Developed computer vision algorithms to automate yield estimation and quality assessment for fresh produce, increasing forecasting accuracy for growers.",
-        "Designed and implemented a scalable web application enabling real-time crop monitoring, task management, and analytics for strawberry and blueberry farms.",
-        "Integrated IoT sensor data and satellite imagery to provide actionable insights for optimizing irrigation, fertilization, and harvest timing.",
-        "Collaborated with agronomists and field teams to translate agricultural workflows into intuitive digital tools, improving user adoption and operational transparency.",
-        "Built automated reporting and alerting systems to notify growers of anomalies and optimize resource allocation across multiple farm locations."
+        "Developed computer vision algorithms automating yield estimation and quality assessment for fresh produce.",
+        "Built a web platform for real-time crop monitoring, task management, and analytics across strawberry and blueberry farms.",
+        "Integrated IoT sensor data and satellite imagery to optimize irrigation, fertilization, and harvest timing.",
+        "Built automated reporting and anomaly alerting across multiple farm locations."
       ]
     },
     {
@@ -159,23 +154,20 @@
       "company": "Hack Reactor",
       "period": "Jan 2013 - Aug 2015",
       "highlights": [
-        "Taught full-stack development, ranging from frontend to backend, to 1,000+ in-person students.",
-        "Developed core software engineering curriculum for 1,000+ students.",
-        "Mentored students to successfully transition from the classroom to professional software engineering careers.",
-        "Created a software interview course to help students ace technical and soft skill interviews.",
-        "Designed and led cybersecurity curriculum for 1,000+ students focusing on penetration testing, vulnerability assessment, and threat intelligence.",
-        "Designed and taught machine learning curriculum for 1,000+ students focusing on deep learning, reinforcement learning, and natural language processing."
+        "Taught full-stack development to 1,000+ in-person students and wrote the core engineering curriculum.",
+        "Designed and led the cybersecurity curriculum covering penetration testing, vulnerability assessment, and threat intelligence.",
+        "Designed and taught the machine learning curriculum covering deep learning, reinforcement learning, and NLP.",
+        "Created the technical interview course and mentored students into professional engineering careers."
       ]
     },
     {
       "title": "Engineer",
-      "company": "ZenPayroll",
+      "company": "ZenPayroll (now Gusto)",
       "period": "Jan 2012 - Dec 2013",
       "highlights": [
-        "Built core infrastructure for ZenPayroll, now Gusto, focusing on security, scalability, and performance.",
-        "Designed and implemented lightweight backend systems to support rapid product growth.",
-        "Collaborated with UI and core engineering teams to deliver a seamless payroll experience.",
-        "Contributed to bringing the product to market through cross-functional teamwork and agile development."
+        "Built core infrastructure focused on security, scalability, and performance.",
+        "Designed lightweight backend systems supporting rapid product growth.",
+        "Worked across UI and core engineering to bring the product to market."
       ]
     },
     {
@@ -183,44 +175,53 @@
       "company": "AT&T",
       "period": "Jan 2009 - Jan 2012",
       "highlights": [
-        "Led internal and external innovation initiatives, driving adoption of cutting-edge technologies and fostering a culture of experimentation across AT&T.",
-        "Architected and built the initial versions of the AT&T API platform, empowering external developers to integrate with AT&T services.",
-        "Designed and implemented the mHealth platform, enabling secure, scalable healthcare solutions and partnerships.",
-        "Developed enterprise solutions including single sign-on services and a next-generation text messaging gateway.",
-        "Established and supported AT&T Labs in Palo Alto, Plano, and Tel Aviv, collaborating with global teams to bring new ideas to market."
+        "Architected and built the initial AT&T API platform, opening AT&T services to external developers.",
+        "Ran developer evangelism internally and externally, driving adoption of new technology and a culture of experimentation.",
+        "Designed the mHealth platform for secure, scalable healthcare solutions and partnerships.",
+        "Established and supported AT&T Labs in Palo Alto, Plano, and Tel Aviv."
+      ]
+    },
+    {
+      "title": "Co-founder & Senior Staff Engineer",
+      "company": "Citrusbyte",
+      "period": "2007 - 2009",
+      "highlights": [
+        "Co-founded a software consultancy and built its engineering practice as a hands-on senior staff engineer.",
+        "Delivered custom production systems across a rotating client portfolio, setting the architecture and engineering standards the team worked to.",
+        "Built the consulting and delivery model I later reused to found newline.io."
       ]
     }
   ],
   "projects": [
     {
-      "name": "Hologram — Geometric Compute Runtime",
-      "desc": "Built a software-defined compute runtime that compiles AI and data workloads into deterministic execution plans, enabling constant-time execution across CPU, GPU, and WebGPU without runtime overhead.",
-      "stack": "Rust • Runtime • Systems"
+      "name": "Hologram — O(1) Neural Inference",
+      "desc": "Neural network inference in constant time via precomputed lookup tables and KV-dispatch: identical work is content-addressed once and never recomputed. Finite-domain functions dispatch as O(1) tables — ~28× on bf16 GELU, bit-identical — and the same archive runs on x86_64, WebAssembly, and ARM bare metal.",
+      "stack": "Rust • Lean 4 • no_std"
+    },
+    {
+      "name": "F₁ — Lean 4 Arithmetic Geometry",
+      "desc": "A Lean 4 research base mechanizing the fibre square Spec Z × Spec Z over F₁, whose Hodge-index positivity would yield the Riemann Hypothesis. The geometry is formalized and machine-checked; RH itself is stated as open, not claimed.",
+      "stack": "Lean 4 • Number Theory"
+    },
+    {
+      "name": "UOR — uor.foundation",
+      "desc": "The Universal Object Reference framework: a formal ontology for content-addressed, symmetric, multi-metric object spaces with algebraic structure over Z/(2ⁿ)Z — 16 namespaces, 213 classes, 438 properties — generated into typed Rust traits, JSON-LD, and Turtle from one source of truth. Ships with PRISM, a universal coordinate system for information.",
+      "stack": "Rust • Lean 4 • Formal Methods"
+    },
+    {
+      "name": "MVM — Security-First MicroVM Platform",
+      "desc": "Runs OCI images, Nix flakes, or decorated functions in hardware-isolated microVMs with no guest NIC at all. Default-deny egress, signed execution plans, chain-signed audit logs, dm-verity boot, and secret substitution over vsock — 18 claims, each enforced by CI rather than documentation.",
+      "stack": "Rust • Firecracker • Nix • Security"
     },
     {
       "name": "AgentZero",
-      "desc": "Built a self-evolving AI agent runtime in Rust where agents generate tools, coordinate as swarms, and persist learned behaviors across executions.",
-      "stack": "Rust • AI Systems"
+      "desc": "A fast, small, secure AI agent runtime in Rust — deny-by-default policies, encrypted vault, PII redaction, full audit trails, and a WASM plugin sandbox. Your agents, your data, your rules: enforced, not promised.",
+      "stack": "Rust • AI Systems • WASM"
     },
     {
-      "name": "MVM — MicroVM Platform",
-      "desc": "Built a developer-first microVM platform for reproducible, secure workloads using Nix and sub-second boot virtualization across Firecracker and multiple backends.",
-      "stack": "Rust • Firecracker • Nix"
-    },
-    {
-      "name": "RoboRef",
-      "desc": "Built a real-time computer vision system for tracking referees and gameplay, enabling autonomous camera control and low-latency edge inference in dynamic environments.",
-      "stack": "Rust • Python • Computer Vision"
-    },
-    {
-      "name": "Fabric",
-      "desc": "Built a backend control plane that unifies identity, authorization, workflows, and AI routing into a single composable runtime, replacing traditional platform infrastructure.",
-      "stack": "Rust • Python • Systems"
-    },
-    {
-      "name": "rq",
-      "desc": "Built a Rust AST toolkit for querying, transforming, and generating code for documentation, tutorials, and developer workflows.",
-      "stack": "Rust • AST • Tooling"
+      "name": "transformerless / uor-r4",
+      "desc": "Cross-compiles a transformer LLM into a table-native, certifiable artifact: the runtime's entire arithmetic interface is add/shift/xor/compare/table-read. 28.1× compression at a certified residual, with a machine-checked op census on every run.",
+      "stack": "Rust • Applied Math • Compilers"
     }
   ],
   "side_cards": [
@@ -228,33 +229,55 @@
       "title": "HIGHLIGHTS",
       "style": "bullets",
       "items": [
-        "Founder building next-generation compute, AI, and infrastructure platforms.",
-        "Systems architect specializing in runtimes, control planes, and distributed execution.",
-        "Educator and author reaching 50K+ developers with 100K+ books distributed globally.",
-        "Open-source contributor with 400+ repositories across systems, security, and tooling."
+        "Mathematician-engineer: proves the structure in Lean 4, then ships it as production Rust.",
+        "Security architect for the AI era — containment for agents that execute untrusted code.",
+        "Advised congressional representatives on blockchain and cryptocurrency policy.",
+        "Founder, author, and DevRel lead: 50K+ developers, 100K+ books in 6 languages."
       ]
     },
     {
       "title": "EXPERTISE",
       "style": "bullets",
       "items": [
+        "Applied and theoretical mathematics",
+        "Formal verification (Lean 4)",
+        "Runtime and compiler design",
         "Distributed systems",
+        "AI/ML and inference systems",
+        "Cybersecurity and threat modeling",
         "Cloud infrastructure",
-        "Workflow orchestration",
-        "Performance engineering",
-        "AI/ML systems",
-        "Cybersecurity",
-        "Fintech infrastructure",
-        "Developer education"
+        "Developer relations and education"
       ]
     },
     {
-      "title": "OPEN SOURCE SIGNAL",
+      "title": "EDUCATION · UNIVERSITY OF ARIZONA",
+      "style": "bullets",
+      "items": [
+        "B.S. Computer Science",
+        "B.S. Theoretical Mathematics — emphasis in harmonics",
+        "B.A. Theater Arts"
+      ]
+    },
+    {
+      "title": "NOTABLE OPEN SOURCE",
       "style": "stack",
       "items": [
-        "GitHub: 427 repositories and 5k+ stars on public profile",
-        "Open-source work spans infrastructure, testing, certificates, RabbitMQ tooling, cloud systems, AST tooling, and AI/ML infrastructure",
-        "Public bio emphasizes technologist, cybersecurity, AI/ML, and open-source systems"
+        "Specs and proofs are public: uor.foundation · UOR-Foundation/F1",
+        "mvm (35★) — secure microVM platform, with mvmd for fleet orchestration and rvproxy for networking",
+        "UOR-Framework (22★) + PRISM (18★) — the formal UOR model and its coordinate system",
+        "uor-r4 (10★) + F₁ (8★) — transformerless compilation; mechanized arithmetic geometry in Lean 4",
+        "Crates: uor-foundation (7.4k downloads), rq (6.0k), hologram (2.3k), uor-addr (1.6k)"
+      ]
+    },
+    {
+      "title": "SELECTED TALKS",
+      "style": "bullets",
+      "items": [
+        "\"The Object Internet\" — Project NANDA, 2026",
+        "\"Angular, the Blockchain, and You\" — AngularUP, Tel Aviv, 2017",
+        "\"Robotics: powering interfaces from AngularJS to the Arduino\" — ng-conf, 2014",
+        "\"Practical Production AngularJS\" — HTML5DevConf, 2014",
+        "Workshops and training at Google, FITC, General Assembly, and the US Navy"
       ]
     },
     {
@@ -263,13 +286,13 @@
       "items": [
         "Fullstack Rust",
         "Fullstack React",
-        "Line-of-business Mobile Apps",
         "Security from Zero",
-        "Fullstack D3 Visualization",
         "ng-book",
         "Fullstack Node.js",
         "Fullstack Vue 3",
         "Fullstack ML",
+        "Fullstack D3 Visualization",
+        "Line-of-business Mobile Apps",
         "Big Little Book on Blockchain"
       ]
     },
@@ -277,23 +300,23 @@
       "title": "CORE COMPETENCIES",
       "style": "stack",
       "items": [
-        "Programming & Systems: Rust, Golang, Python, C/C++, Assembly, TypeScript/JavaScript, Java, SQL — focused on high-performance systems, runtime design, and low-level execution models",
-        "Distributed Systems & Infrastructure: AWS, Kubernetes, Docker, Terraform, Ansible, CI/CD — designing multi-tenant, fault-tolerant, and horizontally scalable platforms",
-        "AI/ML Systems: Machine learning, deep learning, reinforcement learning, NLP, computer vision — building real-time training, inference, and agent-based systems",
-        "Security & Compliance: Cryptography, threat modeling, secure system design, privacy, SOC 2 — implementing defense-in-depth architectures across applications and infrastructure",
-        "Workflow & Platform Architecture: DAG-based orchestration, control planes, event-driven systems, job scheduling, and backend system design",
-        "Leadership & Execution: Technical leadership, team building, mentorship, cross-functional execution, and driving strategy from architecture through delivery"
+        "Mathematics & Formal Methods: Lean 4 proof engineering, algebraic structures over Z/(2ⁿ)Z, resonance and conservation invariants, certified compilation — turning theorems into machine-checked, shippable code",
+        "Programming & Systems: Rust, Erlang, Golang, Python, C/C++, TypeScript, SQL — high-performance systems, runtime design, and low-level execution models",
+        "AI/ML Systems: Inference compilers, multiplication-free runtimes, deep learning, NLP, computer vision, and agent-based systems",
+        "Security: Hypervisor isolation, verified boot, signed execution plans, tamper-evident audit chains, secret and PII containment, cryptography, threat modeling, SOC 2",
+        "Leadership & DevRel: Technical leadership, developer relations, team building, mentorship, and driving strategy from architecture through delivery"
       ]
     },
     {
       "title": "INTERESTS",
       "style": "bullets",
       "items": [
+        "Capture-the-flag competition (3× Stripe CTF)",
         "Distributed computation",
         "Theoretical mathematics",
         "User-driven development",
         "Standup comedy",
-        "Officiating youth sports (Flag and Tackle football, basketball, and softball",
+        "Officiating youth sports (flag and tackle football, basketball, softball)",
         "Community building"
       ]
     }
