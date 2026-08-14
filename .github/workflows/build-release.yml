@@ -16,10 +16,11 @@ jobs:
       - name: Install Typst
         uses: typst-community/setup-typst@v4
 
-      - name: Build PDF
+      - name: Build PDFs
         run: |
           mkdir -p build
           typst compile resume.typ build/ari-lerner-resume.pdf
+          typst compile resume-ats.typ build/ari-lerner-resume-ats.pdf
 
       - name: Generate release tag
         id: tag
@@ -37,5 +38,9 @@ jobs:
           body: |
             Auto-built from commit.
 
-            Download the PDF below.
-          files: build/ari-lerner-resume.pdf
+            - `ari-lerner-resume.pdf` — designed version, for humans.
+            - `ari-lerner-resume-ats.pdf` — single-column, parser-safe version for
+              application portals and automated screeners.
+          files: |
+            build/ari-lerner-resume.pdf
+            build/ari-lerner-resume-ats.pdf

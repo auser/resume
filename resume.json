@@ -21,8 +21,8 @@
     }
   },
   "narrative": {
-    "hook": "Thirty years in, I still build the hard part myself: the mathematics, the runtime, and the security boundary.",
-    "body": "I have spent three decades going down rather than sideways — from applications, to platforms, to the runtimes and formal structures underneath them. Today that means proving mathematics in Lean 4 and compiling it into Rust that runs on bare metal, and designing security boundaries strong enough to contain autonomous AI agents executing untrusted code.\n\nI studied theoretical mathematics with an emphasis on harmonics, computer science, and theater arts — which turned out to be the exact toolkit for this work: resonance algebras underneath the runtime, and the ability to stand in front of a room and make people care about them. Along the way I built a developer-education company to 50K+ students, wrote ten books, and shipped open source developers actually run."
+    "hook": "Over three decades, I still build the hard part myself: the mathematics, the runtime, and the security boundary.",
+    "body": "I build the runtimes AI runs on: content-addressed compute substrates, constant-time inference, and security boundaries strong enough to contain agents executing untrusted code. Three decades of going down rather than sideways — from applications, to platforms, to the formal structures underneath them — and today that means proving mathematics in Lean 4 and compiling it into Rust that runs on bare metal.\n\nI studied theoretical mathematics with an emphasis on harmonics, computer science, and theater arts — the exact toolkit for this work: resonance algebras underneath the runtime, and the ability to make a room care about them. Along the way I built a developer-education company to 50K+ students and shipped open source developers actually run."
   },
   "stats": [
     {
@@ -32,15 +32,9 @@
       "color": "cyan"
     },
     {
-      "label": "BOOKS",
-      "value": "10",
-      "note": "Technical books authored",
-      "color": "orange"
-    },
-    {
-      "label": "STUDENTS",
-      "value": "50k+",
-      "note": "Developer education reach",
+      "label": "INFERENCE",
+      "value": "O(1)",
+      "note": "Constant-time dispatch, ~28× on bf16 GELU",
       "color": "accent"
     },
     {
@@ -48,6 +42,12 @@
       "value": "5k+",
       "note": "Across 437 public repositories",
       "color": "purple"
+    },
+    {
+      "label": "BOOKS",
+      "value": "9",
+      "note": "Authored, 100K+ copies in 6 languages",
+      "color": "orange"
     }
   ],
   "tags": [
@@ -196,22 +196,22 @@
   "projects": [
     {
       "name": "Hologram — O(1) Neural Inference",
-      "desc": "Neural network inference in constant time via precomputed lookup tables and KV-dispatch: identical work is content-addressed once and never recomputed. Finite-domain functions dispatch as O(1) tables — ~28× on bf16 GELU, bit-identical — and the same archive runs on x86_64, WebAssembly, and ARM bare metal.",
+      "desc": "Constant-time neural inference: identical work is content-addressed once and never recomputed, and finite-domain functions become O(1) lookup tables (~28× on bf16 GELU, bit-identical). The same archive runs on x86_64, WebAssembly, and ARM bare metal.",
       "stack": "Rust • Lean 4 • no_std"
     },
     {
       "name": "F₁ — Lean 4 Arithmetic Geometry",
-      "desc": "A Lean 4 research base mechanizing the fibre square Spec Z × Spec Z over F₁, whose Hodge-index positivity would yield the Riemann Hypothesis. The geometry is formalized and machine-checked; RH itself is stated as open, not claimed.",
+      "desc": "A Lean 4 research base mechanizing the fibre square Spec Z × Spec Z over F₁, whose Hodge-index positivity would yield the Riemann Hypothesis. The geometry is machine-checked; RH itself is stated as open, not claimed.",
       "stack": "Lean 4 • Number Theory"
     },
     {
       "name": "UOR — uor.foundation",
-      "desc": "The Universal Object Reference framework: a formal ontology for content-addressed, symmetric, multi-metric object spaces with algebraic structure over Z/(2ⁿ)Z — 16 namespaces, 213 classes, 438 properties — generated into typed Rust traits, JSON-LD, and Turtle from one source of truth. Ships with PRISM, a universal coordinate system for information.",
+      "desc": "A formal ontology for content-addressed, symmetric, multi-metric object spaces over Z/(2ⁿ)Z — 16 namespaces, 213 classes, 438 properties — generated into typed Rust traits, JSON-LD, and Turtle from one source of truth. Ships with PRISM, a universal coordinate system for information.",
       "stack": "Rust • Lean 4 • Formal Methods"
     },
     {
       "name": "MVM — Security-First MicroVM Platform",
-      "desc": "Runs OCI images, Nix flakes, or decorated functions in hardware-isolated microVMs with no guest NIC at all. Default-deny egress, signed execution plans, chain-signed audit logs, dm-verity boot, and secret substitution over vsock — 18 claims, each enforced by CI rather than documentation.",
+      "desc": "Runs OCI images, Nix flakes, or decorated functions in hardware-isolated microVMs with no guest NIC at all: default-deny egress, signed execution plans, chain-signed audit logs, dm-verity boot, and secret substitution over vsock — 18 claims, each enforced by CI.",
       "stack": "Rust • Firecracker • Nix • Security"
     },
     {
@@ -221,7 +221,7 @@
     },
     {
       "name": "transformerless / uor-r4",
-      "desc": "Cross-compiles a transformer LLM into a table-native, certifiable artifact: the runtime's entire arithmetic interface is add/shift/xor/compare/table-read. 28.1× compression at a certified residual, with a machine-checked op census on every run.",
+      "desc": "Cross-compiles a transformer LLM into a table-native artifact whose entire arithmetic interface is add/shift/xor/compare/table-read — 28.1× compression at a certified residual, with a machine-checked op census per run.",
       "stack": "Rust • Applied Math • Compilers"
     }
   ],

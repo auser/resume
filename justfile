@@ -18,10 +18,22 @@ doctor:
 	@[ -f lib/sections.typ ] && echo "✓ lib/sections.typ found" || (echo "✗ lib/sections.typ missing" && exit 1)
 	@typst fonts | grep -qi "Inter" && echo "✓ Inter font available" || echo "! Inter not found (fallback fonts will be used)"
 
-# Build the resume PDF once.
-build:
+# Build both resume PDFs once.
+build: build-designed build-ats
+
+# Build the designed (two-column) resume.
+build-designed:
 	mkdir -p build
 	typst compile resume.typ build/ari-lerner-resume.pdf
+
+# Build the single-column, parser-safe resume for application portals.
+build-ats:
+	mkdir -p build
+	typst compile resume-ats.typ build/ari-lerner-resume-ats.pdf
+
+# Show what an ATS / automated screener actually reads.
+check-ats: build-ats
+	pdftotext build/ari-lerner-resume-ats.pdf -
 
 # Rebuild whenever files change.
 watch:
