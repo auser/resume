@@ -1,4 +1,4 @@
-# Editorial Founder Resume (Typst)
+# Editorial Founder Resume
 
 This is a complete rewrite of the resume system with:
 
