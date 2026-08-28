@@ -83,6 +83,18 @@
   ]),
 )
 
+// ---- Patents ------------------------------------------------------------
+#if get-list(data, "patents") != () [
+  #section("PATENTS")
+  #list(
+    marker: [-],
+    indent: 8pt,
+    ..get-list(data, "patents").map(pt => [
+      #text(weight: "bold")[#get(pt, "title", default: "")] --- #get(pt, "number", default: "")#if has(pt, "status") [. #pt.status]#if has(pt, "note") [. #pt.note]
+    ]),
+  )
+]
+
 // ---- Education ----------------------------------------------------------
 #section("EDUCATION")
 #list(

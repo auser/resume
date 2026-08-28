@@ -75,7 +75,7 @@
       "period": "2025 - Present",
       "highlights": [
         "Authored the mathematical core — a 12,288-element (48×256) prime-structure boundary with a 96-class resonance algebra, unity constraints, and conservation invariants — formalized in Lean 4 and exported over a stable C ABI to Rust, Go, Python, and Node.",
-        "Co-inventor on the patent-pending inference method — \"Systems and Methods for Holographic Computing\", U.S. provisional filed February 2026: identical work is content-addressed once and never recomputed, and finite-domain functions dispatch as O(1) lookup tables — ~28× on bf16 GELU, bit-identical.",
+        "Co-inventor on the patent-pending inference method — \"Systems and Methods for Holographic Computing\", U.S. Provisional Patent Application No. 63/976,830: identical work is content-addressed once and never recomputed, and finite-domain functions dispatch as O(1) lookup tables — ~28× on bf16 GELU, bit-identical.",
         "Invented a transformerless inference path: transformer language models cross-compiled into multiplication-free artifacts whose entire runtime arithmetic is add / shift / xor / compare / table-read, at 28.1× compression and a certified residual.",
         "Built hologram-ai, compiling Hugging Face models into self-contained applications with deterministic CPU-only inference — no MatMul, no GPU, no ONNX, no network at runtime.",
         "Contribute to MIT's Project NANDA (Networked Agents and Decentralized AI): authored the UOR-NANDA interoperability profile inside the UOR Standards Program and presented \"The Object Internet\" at NANDA 2026."
@@ -216,15 +216,23 @@
       "stack": "Rust • Applied Math • Compilers"
     }
   ],
+  "patents": [
+    {
+      "title": "Systems and Methods for Holographic Computing",
+      "number": "U.S. Provisional Patent Application No. 63/976,830",
+      "status": "Patent pending, filed February 2026",
+      "note": "Constant-time inference: content-addressed compute-once semantics with O(1) lookup-table dispatch."
+    }
+  ],
   "side_cards": [
     {
       "title": "HIGHLIGHTS",
       "style": "bullets",
       "items": [
+        "Patent pending: constant-time inference, U.S. App. 63/976,830.",
         "Mathematician-engineer: proves the structure in Lean 4, then ships it as production Rust.",
         "Security architect for the AI era — containment for agents that execute untrusted code.",
-        "Advised congressional representatives on blockchain and cryptocurrency policy.",
-        "Founder, author, and DevRel lead: 50K+ developers, 100K+ books in 6 languages."
+        "Advised congressional representatives on blockchain and cryptocurrency policy."
       ]
     },
     {
