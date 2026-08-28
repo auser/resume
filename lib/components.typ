@@ -18,7 +18,7 @@
   let github = get(data.contact, "github", default: "")
   let linkedin = get(data.contact, "linkedin", default: "")
 
-  text(size: fs-meta, fill: white-soft)[
+  text(size: fs-meta, fill: muted)[
     #inline-list((
       get(data.contact, "location", default: ""),
       link-item(get(data.contact, "email", default: none)),

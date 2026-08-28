@@ -59,8 +59,11 @@
 #let white = rgb("#FFFFFF")
 #let white-soft = rgb("#D9E5F7")
 
-#let hero-panel-fill = rgb("#102A49")
-#let hero-panel-stroke = rgb("#23456F")
+// Header band: light grey, with a heavier grey edge closing it off.
+#let hero-bg = rgb("#ECEEF2")
+#let hero-edge = rgb("#C2C9D4")
+#let hero-panel-fill = rgb("#FFFFFF")
+#let hero-panel-stroke = rgb("#D5DAE2")
 #let chip-fill = rgb("#ECF3FF")
 #let chip-stroke = rgb("#D4E3FF")
 

@@ -4,7 +4,8 @@
 
 #let hero(data) = rect(
   width: 100%,
-  fill: navy,
+  fill: hero-bg,
+  stroke: (bottom: 2pt + hero-edge),
   inset: (
     left: hero-pad-x,
     right: hero-pad-x,
@@ -16,9 +17,9 @@
     columns: (1.95fr, 1fr),
     gutter: hero-gap,
     [
-      #text(size: fs-name, weight: "bold", fill: white)[#get(data, "name", default: "")]
+      #text(size: fs-name, weight: "bold", fill: ink)[#get(data, "name", default: "")]
       #v(s-sm)
-      #text(size: fs-role, weight: "semibold", fill: accent-soft)[#get(data, "headline", default: "")]
+      #text(size: fs-role, weight: "semibold", fill: accent)[#get(data, "headline", default: "")]
       #v(s-md)
       #contact-row(data)
     ],
@@ -52,9 +53,9 @@
         radius: r-lg,
         inset: 14pt,
       )[
-        #text(size: fs-kicker, weight: "bold", tracking: tracking, fill: accent-soft)[#get(data.narrative, "hook_label", default: "WHAT I BUILD")]
+        #text(size: fs-kicker, weight: "bold", tracking: tracking, fill: accent)[#get(data.narrative, "hook_label", default: "WHAT I BUILD")]
         #v(s-sm)
-        #text(size: fs-body, weight: "bold", fill: white)[#get(data.narrative, "hook", default: "")]
+        #text(size: fs-body, weight: "bold", fill: ink)[#get(data.narrative, "hook", default: "")]
       ]
     ],
   )
