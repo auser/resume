@@ -1,6 +1,6 @@
 {
   "name": "Ari Lerner",
-  "headline": "Bitmover • Founder • Systems Architect • Mathematics, infrastructure, and cybersecurity",
+  "headline": "Founder, MVM • Building secure execution infrastructure for AI agents and untrusted code",
   "contact": {
     "location": "San Francisco, CA",
     "email": {
@@ -22,8 +22,8 @@
   },
   "narrative": {
     "hook_label": "WHAT I BUILD",
-    "hook": "Over three decades, I still build the hard part myself: the mathematics, the runtime, and the security boundary.",
-    "body": "I build the runtimes AI runs on: content-addressed compute substrates, constant-time inference, and security boundaries strong enough to contain agents executing untrusted code. Three decades of going down rather than sideways — from applications, to platforms, to the formal structures underneath them — and today that means proving mathematics in Lean 4 and compiling it into Rust that runs on bare metal.\n\nI studied theoretical mathematics with an emphasis on harmonics, computer science, and theater arts — the exact toolkit for this work: resonance algebras underneath the runtime, and the ability to make a room care about them. Along the way I built a developer-education company to 50K+ students and shipped open source developers actually run."
+    "hook": "I build the infrastructure beneath the prompt: secure execution boundaries, deterministic runtimes, and systems that make powerful software easier to trust.",
+    "body": "MVM is where most of my time goes: a security-first microVM runtime for AI agents and untrusted code. Hologram is an object-first runtime for portable, deterministic computation; UOR is research into semantic, content-addressed identity. I work from applied mathematics and Lean 4 proofs through Rust, kernels, hypervisors, protocols, and product.\n\nAcross more than three decades I have built production systems at AWS, led AI, platform, and cybersecurity work inside regulated banking, scaled newline.io — formerly Fullstack.io — to 50K+ students and $2M+ in annual revenue, authored or co-authored 9+ technical books with 100K+ copies in six languages, and taught engineers across five continents. The through-line is simple: go one layer deeper, make authority explicit, and design the blast radius before failure does it for you."
   },
   "stats": [
     {
@@ -52,35 +52,23 @@
     }
   ],
   "tags": [
-    "Founder and product-minded technical leader",
+    "Rust",
+    "microVMs",
+    "Cybersecurity",
+    "Distributed systems",
+    "Secure execution boundaries",
+    "AI agent isolation",
+    "Deterministic runtimes",
     "Applied mathematics",
     "Formal methods (Lean 4)",
-    "Cybersecurity",
-    "AI/ML systems",
-    "Developer relations",
-    "Rust",
+    "Hypervisors and kernels",
     "Zig",
-    "Erlang",
     "Golang",
     "Python",
     "TypeScript",
-    "React",
-    "Cloud infrastructure",
-    "Open source"
+    "Developer relations"
   ],
   "experience": [
-    {
-      "title": "Founder",
-      "company": "Hologram",
-      "period": "2025 - Present",
-      "highlights": [
-        "Authored the mathematical core — a 12,288-element (48×256) prime-structure boundary with a 96-class resonance algebra, unity constraints, and conservation invariants — formalized in Lean 4 and exported over a stable C ABI to Rust, Go, Python, and Node.",
-        "Co-inventor on the patent-pending inference method — \"Systems and Methods for Holographic Computing\", U.S. Provisional Patent Application No. 63/976,830: identical work is content-addressed once and never recomputed, and finite-domain functions dispatch as O(1) lookup tables — ~28× on bf16 GELU, bit-identical.",
-        "Invented a transformerless inference path: transformer language models cross-compiled into multiplication-free artifacts whose entire runtime arithmetic is add / shift / xor / compare / table-read, at 28.1× compression and a certified residual.",
-        "Built hologram-ai, compiling Hugging Face models into self-contained applications with deterministic CPU-only inference — no MatMul, no GPU, no ONNX, no network at runtime.",
-        "Contribute to MIT's Project NANDA (Networked Agents and Decentralized AI): authored the UOR-NANDA interoperability profile inside the UOR Standards Program and presented \"The Object Internet\" at NANDA 2026."
-      ]
-    },
     {
       "title": "Founder",
       "company": "Tinylabs",
@@ -91,6 +79,18 @@
         "Built secret substitution and PII redaction over vsock so raw credentials never reach the guest, including detection of secrets split across frame boundaries.",
         "Designed the AI-agent containment surface: run-shaped capability grants that give autonomous agents somewhere to execute model-generated code without trusting it.",
         "Built RoboRef, a real-time computer vision system for youth sports — referee and gameplay tracking with autonomous camera control and low-latency edge inference."
+      ]
+    },
+    {
+      "title": "Founder",
+      "company": "Hologram",
+      "period": "2025 - Present",
+      "highlights": [
+        "Authored the mathematical core — a 12,288-element (48×256) prime-structure boundary with a 96-class resonance algebra, unity constraints, and conservation invariants — formalized in Lean 4 and exported over a stable C ABI to Rust, Go, Python, and Node.",
+        "Co-inventor on the patent-pending inference method — \"Systems and Methods for Holographic Computing\", U.S. Provisional Patent Application No. 63/976,830: identical work is content-addressed once and never recomputed, and finite-domain functions dispatch as O(1) lookup tables — ~28× on bf16 GELU, bit-identical.",
+        "Invented a transformerless inference path: transformer language models cross-compiled into multiplication-free artifacts whose entire runtime arithmetic is add / shift / xor / compare / table-read, at 28.1× compression and a certified residual.",
+        "Built hologram-ai, compiling Hugging Face models into self-contained applications with deterministic CPU-only inference — no MatMul, no GPU, no ONNX, no network at runtime.",
+        "Contribute to MIT's Project NANDA (Networked Agents and Decentralized AI): authored the UOR-NANDA interoperability profile inside the UOR Standards Program and presented \"The Object Internet\" at NANDA 2026."
       ]
     },
     {
@@ -113,7 +113,8 @@
         "Built and scaled blockchain financial infrastructure processing 300k transactions/second.",
         "Designed the security framework for on-chain and multi-chain transactions, plus identity and access management.",
         "Developed the cybersecurity strategy that achieved SOC 2 Type II compliance.",
-        "Automated feature development with AI/ML, cutting development time 50% and improving accuracy 90% across 3 major features."
+        "Automated feature development with AI/ML, cutting development time 50% and improving accuracy 90% across 3 major features.",
+        "Advised congressional representatives on blockchain and cryptocurrency policy."
       ]
     },
     {
@@ -136,7 +137,7 @@
         "Founded and scaled the company to 50K+ students and $2M+ annual revenue.",
         "Ran developer relations as a founder-led function: built the ng-newsletter community, published tutorial series and sample code that developers cloned by the thousand, and turned that audience into the company's primary acquisition channel.",
         "Evangelized on stage and in the field across 5 continents, training 1,000+ developers in person — from the US Navy to continuing-education programs across the US, Europe, Asia, and the Middle East.",
-        "Authored 9+ technical textbooks with 100K+ copies sold in 6 languages, and built the collaborative publishing platform authors and readers used to produce them.",
+        "Authored or co-authored 9+ technical books with 100K+ copies sold in 6 languages, and built the collaborative publishing platform authors and readers used to produce them.",
         "Designed curriculum spanning full-stack development, cybersecurity, and machine learning, and open-sourced 5 projects supporting it."
       ]
     },
@@ -230,8 +231,7 @@
       "items": [
         "Patent pending: constant-time inference, U.S. App. 63/976,830.",
         "Mathematician-engineer: proves the structure in Lean 4, then ships it as production Rust.",
-        "Security architect for the AI era — containment for agents that execute untrusted code.",
-        "Advised congressional representatives on blockchain and cryptocurrency policy."
+        "Security architect for the AI era — containment for agents that execute untrusted code."
       ]
     },
     {
@@ -310,12 +310,11 @@
       "style": "bullets",
       "items": [
         "Capture-the-flag: 3× Stripe CTF winner (2012–2014)",
+        "Mentoring engineers",
+        "Refereeing youth football and basketball in the Bay Area",
         "Distributed computation",
         "Theoretical mathematics",
-        "User-driven development",
-        "Standup comedy",
-        "Officiating youth sports (flag and tackle football, basketball, softball)",
-        "Community building"
+        "Standup comedy"
       ]
     }
   ]
