@@ -130,10 +130,33 @@
   #github-heatmap(data.activity)
 ]
 
+// A PATENTS card synthesized from data.patents, so the designed resume and
+// the parser-safe variant cite the same source rather than duplicating text.
+#let patents-card-data(data) = (
+  title: "PATENTS",
+  style: "stack",
+  items: get-list(data, "patents").map(p => [
+    #text(weight: "bold")[#get(p, "title", default: "")]
+    #linebreak()
+    #get(p, "number", default: "")
+    #if has(p, "status") [
+      #linebreak()
+      #p.status
+    ]
+  ]),
+)
+
 #let side-column(data) = [
-  #for card in get-list(data, "side_cards") [
-    #side-card(card)
-    #if card != get-list(data, "side_cards").last() [
+  #let cards = get-list(data, "side_cards")
+  #let all = if get-list(data, "patents") == () or cards.len() == 0 {
+    cards
+  } else {
+    // sits directly under HIGHLIGHTS
+    cards.slice(0, 1) + (patents-card-data(data),) + cards.slice(1)
+  }
+  #for pair in all.enumerate() [
+    #side-card(pair.last())
+    #if pair.first() < all.len() - 1 [
       #v(section-gap)
     ]
   ]

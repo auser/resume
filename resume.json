@@ -197,30 +197,29 @@
     },
     {
       "name": "UOR — uor.foundation",
-      "desc": "A formal ontology for content-addressed, symmetric, multi-metric object spaces over Z/(2ⁿ)Z — 16 namespaces, 213 classes, 438 properties — generated into typed Rust traits, JSON-LD, and Turtle from one source of truth. Ships with PRISM, a universal coordinate system for information.",
+      "desc": "A formal ontology for content-addressed, symmetric, multi-metric object spaces over Z/(2ⁿ)Z — 16 namespaces, 213 classes, 438 properties — generated into typed Rust traits, JSON-LD, and Turtle. Ships with PRISM, a universal coordinate system for information.",
       "stack": "Rust • Lean 4 • Formal Methods"
     },
     {
       "name": "MVM — Security-First MicroVM Platform",
-      "desc": "Runs OCI images, Nix flakes, or decorated functions in hardware-isolated microVMs with no guest NIC at all: default-deny egress, signed execution plans, chain-signed audit logs, dm-verity boot, and secret substitution over vsock — 18 claims, each enforced by CI.",
-      "stack": "Rust • Firecracker • Nix • Security"
+      "desc": "Runs OCI images, Nix flakes, or decorated functions in hardware-isolated microVMs with no guest NIC at all: default-deny egress, signed execution plans, chain-signed audit logs, and secret substitution over vsock — 18 claims, each enforced by CI.",
+      "stack": "Rust • Firecracker • Nix • runmvm.com"
     },
     {
       "name": "AgentZero",
-      "desc": "A fast, small, secure AI agent runtime in Rust — deny-by-default policies, encrypted vault, PII redaction, full audit trails, and a WASM plugin sandbox. Your agents, your data, your rules: enforced, not promised.",
+      "desc": "A fast, secure AI agent runtime in Rust — deny-by-default policies, encrypted vault, PII redaction, audit trails, and a WASM plugin sandbox.",
       "stack": "Rust • AI Systems • WASM"
     },
     {
       "name": "transformerless / uor-r4",
-      "desc": "Cross-compiles a transformer LLM into a table-native artifact whose entire arithmetic interface is add/shift/xor/compare/table-read — 28.1× compression at a certified residual, with a machine-checked op census per run.",
+      "desc": "Cross-compiles a transformer LLM into a table-native artifact whose entire arithmetic is add/shift/xor/compare/table-read — 28.1× compression at a certified residual.",
       "stack": "Rust • Applied Math • Compilers"
     }
   ],
   "patents": [
     {
       "title": "Systems and Methods for Holographic Computing",
-      "number": "U.S. Provisional Patent Application No. 63/976,830",
-      "status": "Patent pending, filed February 2026",
+      "number": "U.S. Provisional Patent Application No. 63/976,830 — filed February 2026",
       "note": "Constant-time inference: content-addressed compute-once semantics with O(1) lookup-table dispatch."
     }
   ],
@@ -250,9 +249,10 @@
       ]
     },
     {
-      "title": "EDUCATION · UNIVERSITY OF ARIZONA",
+      "title": "EDUCATION",
       "style": "bullets",
       "items": [
+        "University of Arizona, 2002–2006",
         "B.S. Computer Science",
         "B.S. Theoretical Mathematics — emphasis in harmonics",
         "B.A. Theater Arts"
@@ -301,17 +301,15 @@
       "style": "stack",
       "items": [
         "Mathematics & Formal Methods: Lean 4 proof engineering, algebraic structures over Z/(2ⁿ)Z, resonance and conservation invariants, certified compilation — turning theorems into machine-checked, shippable code",
-        "Programming & Systems: Rust, Erlang, Golang, Python, C/C++, TypeScript, SQL — high-performance systems, runtime design, and low-level execution models",
         "AI/ML Systems: Inference compilers, multiplication-free runtimes, deep learning, NLP, computer vision, and agent-based systems",
-        "Security: Hypervisor isolation, verified boot, signed execution plans, tamper-evident audit chains, secret and PII containment, cryptography, threat modeling, SOC 2",
-        "Leadership & DevRel: Technical leadership, developer relations, team building, mentorship, and driving strategy from architecture through delivery"
+        "Security: Hypervisor isolation, verified boot, signed execution plans, tamper-evident audit chains, secret and PII containment, cryptography, threat modeling, SOC 2"
       ]
     },
     {
       "title": "INTERESTS",
       "style": "bullets",
       "items": [
-        "Capture-the-flag competition (3× Stripe CTF)",
+        "Capture-the-flag: 3× Stripe CTF winner (2012–2014)",
         "Distributed computation",
         "Theoretical mathematics",
         "User-driven development",
