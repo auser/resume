@@ -35,19 +35,19 @@
     {
       "label": "INFERENCE",
       "value": "O(1)",
-      "note": "Constant-time dispatch, ~28× on bf16 GELU",
+      "note": "Constant-time dispatch, ~28×",
       "color": "accent"
     },
     {
       "label": "SECURITY",
       "value": "18",
-      "note": "CI-enforced security claims in MVM",
+      "note": "CI-enforced security claims",
       "color": "purple"
     },
     {
       "label": "BOOKS",
       "value": "9+",
-      "note": "Authored, 100K+ copies in 6 languages",
+      "note": "100K+ copies in 6 languages",
       "color": "orange"
     }
   ],

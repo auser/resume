@@ -46,7 +46,7 @@
   fill: surface,
   stroke: line-thin + rule,
   radius: r-md,
-  inset: 11pt,
+  inset: stat-pad,
 )[
   #text(
     size: fs-stat,

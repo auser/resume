@@ -38,7 +38,7 @@
 
 #proof-row(data)
 
-#v(section-gap)
+#v(proof-gap-bottom)
 
 #summary-section(data)
 
