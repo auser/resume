@@ -168,7 +168,7 @@
       "company": "ZenPayroll (now Gusto)",
       "period": "2012 - 2013",
       "highlights": [
-        "Built core infrastructure focused on security, scalability, and performance.",
+        "Built core infrastructure for security and performance.",
         "Designed lightweight backends for rapid product growth.",
         "Worked across UI and core engineering to ship the product."
       ]
@@ -178,9 +178,9 @@
       "company": "AT&T",
       "period": "2009 - 2012",
       "highlights": [
-        "Architected and built the initial AT&T API platform, opening AT&T services to external developers.",
+        "Built the initial AT&T API platform for external developers.",
         "Ran developer evangelism internally and externally, driving adoption of new technology and a culture of experimentation.",
-        "Designed the mHealth platform for secure, scalable healthcare solutions and partnerships.",
+        "Designed the mHealth platform for healthcare partnerships.",
         "Established AT&T Labs in Palo Alto, Plano, and Tel Aviv."
       ]
     }
