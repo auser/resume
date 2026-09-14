@@ -10,7 +10,7 @@
 
 #set page(paper: "us-letter", margin: 0.7in)
 #set text(font: ("Helvetica", "Arial", "Liberation Sans"), size: 10pt, fill: black)
-#set par(justify: false, leading: 0.55em, spacing: 0.75em)
+#set par(justify: false, leading: 0.55em)
 
 // Standard, unstyled headers so a parser can find real section names.
 #let section(label) = {
