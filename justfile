@@ -18,20 +18,20 @@ doctor:
 	@[ -f lib/sections.typ ] && echo "✓ lib/sections.typ found" || (echo "✗ lib/sections.typ missing" && exit 1)
 	@typst fonts | grep -qi "Inter" && echo "✓ Inter font available" || echo "! Inter not found (fallback fonts will be used)"
 
-# Build both resume PDFs once.
+# Build both founder resume PDFs once.
 build: build-designed build-ats
 
-# Build the designed (two-column) resume.
+# Build the designed (two-column) founder resume.
 build-designed:
 	mkdir -p build
 	typst compile resume.typ build/ari-lerner-resume.pdf
 
-# Build the single-column, parser-safe resume for application portals.
+# Build the original single-column founder resume.
 build-ats:
 	mkdir -p build
 	typst compile resume-ats.typ build/ari-lerner-resume-ats.pdf
 
-# Show what an ATS / automated screener actually reads.
+# Inspect text extracted from the original single-column founder resume.
 check-ats: build-ats
 	pdftotext build/ari-lerner-resume-ats.pdf -
 
@@ -49,10 +49,22 @@ watch-open:
 	(open build/ari-lerner-resume.pdf || xdg-open build/ari-lerner-resume.pdf || true); \
 	wait $$pid
 
-# Open the generated PDF.
+# Open the generated founder PDF.
 open:
 	(open build/ari-lerner-resume.pdf || xdg-open build/ari-lerner-resume.pdf)
 
 # Remove build artifacts.
 clean:
 	rm -rf build
+
+# Build the focused application DOCX, Markdown, text, bullet bank, and letter.
+build-application:
+	python3 scripts/build_application.py
+
+# Also export application PDF (requires LibreOffice).
+build-application-pdf:
+	python3 scripts/build_application.py --pdf
+
+# Validate the generated application pack (requires LibreOffice and Poppler).
+check-application: build-application-pdf
+	python3 scripts/check_application.py --pdf
