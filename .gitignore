@@ -1,1 +1,5 @@
 **/*.pdf
+build/
+.venv-application/
+__pycache__/
+*.py[cod]

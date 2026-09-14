@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "source": {
+    "repository": "auser/resume",
+    "path": "resume.json",
+    "commit": "d5a677ba9628b59742b92462d3ccb23481304e20",
+    "blob_sha": "6f8c59317d6b2cab4e0b8b0a90da47209be0f2a9",
+    "reviewed_on": "2026-09-14",
+    "metrics_status": "Source-reported, not independently audited. No invented estimates."
+  },
+  "target": {
+    "title": "Principal Software Engineer",
+    "focus": "Platform Infrastructure & AI Security",
+    "assumed": true,
+    "job_posting": null,
+    "note": "Working target only; no job posting was supplied. This is not an employment title."
+  },
+  "name": "Ari Lerner",
+  "contact_lines": [
+    "San Francisco, CA | me@ari.io | ari.io",
+    "github.com/auser | linkedin.com/in/arilerner"
+  ],
+  "summary": "Systems engineering leader building secure execution infrastructure, distributed systems, and AI platforms in Rust and AWS. Architected banking infrastructure serving 100K+ customers and led a 7-person platform replacement while maintaining 99.9% uptime. Founder of MVM, focused on hardware-isolated execution of AI agents and untrusted code; previously built production AI/ML systems at AWS and scaled newline.io to $2M+ annual revenue.",
+  "skills": [
+    {"label": "Languages", "text": "Rust, Go, Python, TypeScript, Lean 4"},
+    {"label": "Infrastructure", "text": "AWS, distributed systems, cloud-native platforms, microVMs, Firecracker, Nix, CI/CD"},
+    {"label": "Security and AI", "text": "AI-agent isolation, threat modeling, identity and access management, audit logging, signed execution plans, SOC 2, machine learning systems"}
+  ],
+  "experience": [
+    {
+      "company": "Tinylabs", "title": "Founder", "period": "2019 - Present", "earlier": false,
+      "highlights": [
+        {"source_bullet": 1, "text": "Isolated AI agents and untrusted code in MVM microVMs with separate guest kernels and host-mediated, default-deny network access.", "include": true, "review_note": ""},
+        {"source_bullet": 2, "text": "18 security claims tied to executable CI checks, covering signed execution plans, tamper-evident audit logs, verified boot, and sealed production images.", "include": true, "review_note": "Confirm the current claim count and the exact guarantees each test establishes. CI coverage is not proof of all possible behaviors."},
+        {"source_bullet": 3, "text": "Kept raw credentials outside guest workloads through vsock secret substitution and PII redaction, including detection across frame boundaries.", "include": true, "review_note": "Validate scope and adversarial test coverage; this is the source resume's architecture claim, not an independent security audit."},
+        {"source_bullet": 4, "text": "Bound AI-agent execution to per-run capability grants so model-generated code could run without granting unrestricted authority.", "include": false, "review_note": "Useful for a security-specific role; overlaps the first MVM bullet."},
+        {"source_bullet": 5, "text": "Enabled real-time youth-sports tracking through RoboRef computer vision, autonomous camera control, and low-latency edge inference.", "include": false, "review_note": "Keep for robotics, computer vision, or edge roles; no measured latency is supplied."}
+      ]
+    },
+    {
+      "company": "Hologram", "title": "Founder", "period": "2025 - Present", "earlier": false,
+      "highlights": [
+        {"source_bullet": 1, "text": "Enabled Rust, Go, Python, and Node interoperability through a stable C ABI backed by a Lean 4-formalized mathematical core.", "include": true, "review_note": "The source includes a 12,288-element structure and 96-class algebra; move those details to a technical portfolio."},
+        {"source_bullet": 2, "text": "Enabled content-addressed compute reuse and constant-time lookup for finite-domain functions as co-inventor of a holographic computing method.", "include": false, "review_note": "Source lists provisional application 63/976,830, filed February 2026. Confirm filing details and current status. The reported ~28x result concerns bf16 GELU, not end-to-end inference."},
+        {"source_bullet": 3, "text": "Enabled experimental multiplication-free inference by cross-compiling transformer models into artifacts using add, shift, XOR, compare, and table-read operations.", "include": false, "review_note": "No claim of production readiness or equivalent model quality. Restore 28.1x compression or certified residual only with artifact sizes, definitions, quality evaluation, and reproducible evidence."},
+        {"source_bullet": 4, "text": "Enabled experimental CPU-only model execution by compiling Hugging Face models into self-contained applications without runtime network access.", "include": true, "review_note": "Experimental qualifier avoids implying independently demonstrated performance, quality, or production adoption."},
+        {"source_bullet": 5, "text": "Advanced agent interoperability by authoring the UOR-NANDA profile and presenting The Object Internet at NANDA 2026.", "include": false, "review_note": "Retain for standards, research, or ecosystem roles; confirm contribution scope and event details."}
+      ]
+    },
+    {
+      "company": "Herring Bank", "title": "Chief Innovation Officer", "period": "2023 - 2025", "earlier": false,
+      "highlights": [
+        {"source_bullet": 1, "text": "$10M+ in new product development led through strategic innovation initiatives.", "include": false, "review_note": "Define whether this means budget, investment, portfolio value, or another measure. It is not stated revenue."},
+        {"source_bullet": 2, "text": "100K+ customers supported by architecting a cloud-native, multi-tenant core banking platform.", "include": true, "review_note": "Source-reported customer count. Confirm timeframe, population, and what \"served\" measures."},
+        {"source_bullet": 3, "text": "85% reduction in fraud achieved through secure AI-native banking infrastructure.", "include": false, "review_note": "Before publishing, define the fraud measure, baseline, observation period, and contribution attributable to this work."},
+        {"source_bullet": 4, "text": "Achieved SOC 2 Type II by leading security remediation and audit work.", "include": true, "review_note": "Source also claims $10M+ potential losses prevented and 100% audit coverage. Those figures are omitted until the loss model and audit scope are defined; confirm attestation scope and personal role."},
+        {"source_bullet": 5, "text": "99.9% uptime maintained while leading a 7-person team replacing an end-of-life core banking platform.", "include": true, "review_note": "Confirm measurement window, service scope, migration stages, and direct-report versus project-team size."}
+      ]
+    },
+    {
+      "company": "EthTrust", "title": "Chief Technical Officer", "period": "2022 - 2023", "earlier": false,
+      "highlights": [
+        {"source_bullet": 1, "text": "Enabled high-throughput blockchain financial processing by building and scaling the transaction infrastructure.", "include": false, "review_note": "Do not restore 300K transactions/second without benchmark conditions, transaction definition, hardware, duration, and production-versus-load-test context."},
+        {"source_bullet": 2, "text": "Secured on-chain and multi-chain transactions through a security framework spanning transaction controls and identity and access management.", "include": true, "review_note": ""},
+        {"source_bullet": 3, "text": "Achieved SOC 2 Type II by developing the cybersecurity strategy.", "include": true, "review_note": "Confirm the attested entity, scope, reporting period, and individual contribution."},
+        {"source_bullet": 4, "text": "50% shorter development time achieved through AI/ML automation across 3 major features.", "include": false, "review_note": "The source also says accuracy improved 90%. Define time baseline, comparable work, sample size, and accuracy metric before either result is used in an application."},
+        {"source_bullet": 5, "text": "Informed blockchain and cryptocurrency policy discussions by advising congressional representatives.", "include": false, "review_note": "Keep only when relevant; confirm who was advised and the nature of the engagement without implying legislative outcomes."}
+      ]
+    },
+    {
+      "company": "Amazon Web Services", "title": "Senior Technology Lead", "period": "2019 - 2021", "earlier": false,
+      "highlights": [
+        {"source_bullet": 1, "text": "Enabled real-time healthcare data processing and model training through a distributed machine learning platform.", "include": true, "review_note": ""},
+        {"source_bullet": 2, "text": "100K+ data points processed daily by AI/ML systems deployed for sports analytics.", "include": true, "review_note": "Retained exactly at data-point scope; not requests, users, or transactions."},
+        {"source_bullet": 3, "text": "Automated testing, deployment, and monitoring through CI/CD pipelines for secure, high-availability AWS infrastructure.", "include": true, "review_note": ""},
+        {"source_bullet": 4, "text": "Extended access to distributed ML infrastructure by releasing open-source software used by internal and external customers.", "include": false, "review_note": "Useful for open-source platform roles; add adoption counts only with evidence."},
+        {"source_bullet": 5, "text": "25+ junior engineers and consultants mentored in technical delivery.", "include": false, "review_note": "Source also reports 40% higher team productivity. Keep the mentoring count, not the improvement claim, until the productivity measure and baseline are defined."}
+      ]
+    },
+    {
+      "company": "newline.io (formerly Fullstack.io)", "title": "Founder & CTO", "period": "2012 - 2021", "earlier": false,
+      "highlights": [
+        {"source_bullet": 1, "text": "$2M+ annual revenue and 50K+ students reached by founding and scaling newline.io, formerly Fullstack.io.", "include": true, "review_note": "Confirm revenue year and student definition; annual revenue is not necessarily recurring revenue."},
+        {"source_bullet": 2, "text": "Established the company's primary acquisition channel through the ng-newsletter community, developer tutorials, and reusable sample code.", "include": false, "review_note": "Strong for developer relations or developer-product roles; attribution is stated in the source, not independently measured here."},
+        {"source_bullet": 3, "text": "1,000+ developers trained in person across 5 continents through workshops and technical education, including the US Navy.", "include": true, "review_note": "Retain source scope. Do not add this count to Hack Reactor's student count without checking overlap."},
+        {"source_bullet": 4, "text": "100K+ copies sold across 6 languages through authoring or co-authoring 9+ technical books and building a collaborative publishing platform.", "include": true, "review_note": "Confirm bibliography and sales scope; do not imply sole authorship of all titles."},
+        {"source_bullet": 5, "text": "5 open-source projects supported curricula in full-stack development, cybersecurity, and machine learning.", "include": false, "review_note": "Keep for education or developer relations roles; identify the projects and contribution scope."}
+      ]
+    },
+    {
+      "company": "Fieldday Labs", "title": "Founder", "period": "2015 - 2017", "earlier": true,
+      "highlights": [
+        {"source_bullet": 1, "text": "Automated produce yield estimation and quality assessment through computer vision algorithms.", "include": true, "review_note": ""},
+        {"source_bullet": 2, "text": "Enabled real-time crop monitoring, task management, and analytics through a web platform for strawberry and blueberry farms.", "include": false, "review_note": ""},
+        {"source_bullet": 3, "text": "Supported irrigation, fertilization, and harvest decisions by integrating IoT sensor data and satellite imagery.", "include": false, "review_note": "Avoid claiming measured yield or resource-use improvements without a baseline."},
+        {"source_bullet": 4, "text": "Automated reporting and anomaly alerts across multiple farm locations.", "include": false, "review_note": "An exact farm count was not supplied; do not invent one."}
+      ]
+    },
+    {
+      "company": "Hack Reactor", "title": "Core Instructor", "period": "2013 - 2015", "earlier": true,
+      "highlights": [
+        {"source_bullet": 1, "text": "1,000+ in-person students taught full-stack development through an original core engineering curriculum.", "include": true, "review_note": "Confirm count and avoid double-counting with the newline workshop audience."},
+        {"source_bullet": 2, "text": "Established cybersecurity instruction covering penetration testing, vulnerability assessment, and threat intelligence.", "include": false, "review_note": ""},
+        {"source_bullet": 3, "text": "Established machine learning instruction covering deep learning, reinforcement learning, and natural language processing.", "include": false, "review_note": "Confirm these curriculum subjects and dates before using this in a targeted application."},
+        {"source_bullet": 4, "text": "Prepared students for engineering interviews and careers through a technical interview course and individual mentoring.", "include": false, "review_note": "No placement rate is supplied; do not infer one."}
+      ]
+    },
+    {
+      "company": "ZenPayroll (now Gusto)", "title": "Engineer", "period": "2012 - 2013", "earlier": true,
+      "highlights": [
+        {"source_bullet": 1, "text": "Strengthened product security and performance through core infrastructure engineering.", "include": true, "review_note": "No measured improvement is supplied."},
+        {"source_bullet": 2, "text": "Supported rapid product growth through lightweight backend services.", "include": false, "review_note": ""},
+        {"source_bullet": 3, "text": "Delivered product features across user-interface and core engineering work.", "include": false, "review_note": ""}
+      ]
+    },
+    {
+      "company": "AT&T", "title": "Innovation Evangelist", "period": "2009 - 2012", "earlier": true,
+      "highlights": [
+        {"source_bullet": 1, "text": "Enabled external developers to build on AT&T through its initial API platform.", "include": true, "review_note": ""},
+        {"source_bullet": 2, "text": "Advanced internal and external adoption of new technology through developer evangelism and experimentation.", "include": false, "review_note": ""},
+        {"source_bullet": 3, "text": "Enabled healthcare partnerships through the design of the mHealth platform.", "include": false, "review_note": ""},
+        {"source_bullet": 4, "text": "3 AT&T Labs locations established in Palo Alto, Plano, and Tel Aviv.", "include": false, "review_note": "Three is a direct count of the three source locations, not an estimate; confirm personal founding responsibility."}
+      ]
+    }
+  ],
+  "education": {
+    "institution": "University of Arizona", "period": "2002 - 2006",
+    "degrees": ["B.S. Computer Science", "B.S. Theoretical Mathematics (harmonics)", "B.A. Theater Arts"]
+  },
+  "cover_letter_paragraphs": [
+    "Your team needs infrastructure that lets AI products move quickly without compromising security, reliability, or operational control. I build the systems that make that possible.",
+    "At Herring Bank, I architected a cloud-native banking platform serving 100K+ customers and led a seven-person team replacing an end-of-life core while maintaining 99.9% uptime. At AWS, I built distributed machine-learning infrastructure. Today, I am building MVM, which isolates AI agents and untrusted code in microVMs with signed execution plans and auditable controls.",
+    "I bring hands-on Rust engineering, production platform experience, and the judgment to connect architecture with business outcomes. I would welcome a focused technical conversation about your most pressing infrastructure challenges and how I would approach them as your next Principal Software Engineer."
+  ]
+}
