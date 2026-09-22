@@ -19,6 +19,26 @@ just watch
 just watch-open
 ```
 
+## Typst cover letters
+
+`cover-letter-template.typ` reads shared personal details from `resume.json` and job-specific content from a JSON configuration. With the default `cover-letter.json`:
+
+```bash
+typst compile cover-letter-template.typ build/cover-letter.pdf
+```
+
+To maintain multiple letters, copy the configuration for each application and select it through Typst's CLI input. The output path can be chosen independently:
+
+```bash
+typst compile --input config=letters/acme.json \
+  cover-letter-template.typ build/acme-cover-letter.pdf
+
+typst compile --input config=letters/example.json \
+  cover-letter-template.typ build/example-cover-letter.pdf
+```
+
+Configuration paths are resolved within the Typst project root. If no `config` input is supplied, the template falls back to `cover-letter.json`.
+
 ## Application version
 
 Python 3.10+ and python-docx are required. PDF export additionally requires LibreOffice. The PDF validation command uses Poppler (`pdftotext` and `pdfinfo`). The builder performs no network requests.

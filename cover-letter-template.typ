@@ -3,12 +3,17 @@
 // Personal details come from resume.json. Customize the job-specific values in
 // cover-letter.json, then run:
 //   typst compile cover-letter-template.typ build/cover-letter.pdf
+//
+// To use a different letter configuration:
+//   typst compile --input config=letters/acme.json \
+//     cover-letter-template.typ build/acme-cover-letter.pdf
 
 // Keep the finished letter to one page. Concrete examples and measured outcomes
 // are usually more persuasive than a list of responsibilities.
 
+#let config-path = sys.inputs.at("config", default: "cover-letter.json")
 #let resume = json("resume.json")
-#let config = json("cover-letter.json")
+#let config = json(config-path)
 #let document = config.document
 #let sender = config.sender
 #let recipient = config.recipient
