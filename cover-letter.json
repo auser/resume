@@ -1,0 +1,77 @@
+{
+  "document": {
+    "paper": "us-letter",
+    "margins_in": {
+      "x": 0.78,
+      "top": 0.68,
+      "bottom": 0.72
+    },
+    "font_stack": ["Inter", "Arial", "Helvetica Neue", "Helvetica"],
+    "typography": {
+      "body_size_pt": 10.5,
+      "body_leading_em": 0.72,
+      "body_justify": false,
+      "name_size_pt": 22,
+      "name_weight": "bold",
+      "name_tracking_em": -0.02,
+      "title_size_pt": 10,
+      "title_weight": "medium",
+      "contact_size_pt": 8.8,
+      "subject_weight": "semibold",
+      "signature_weight": "semibold"
+    },
+    "colors": {
+      "ink": "#182433",
+      "muted": "#65738A",
+      "accent": "#2E67F5",
+      "rule": "#D8E0EC"
+    },
+    "spacing_pt": {
+      "name_to_title": 2,
+      "title_to_contacts": 7,
+      "header_to_rule": 10,
+      "rule_to_date": 15,
+      "date_to_recipient": 13,
+      "recipient_to_subject": 13,
+      "subject_to_salutation": 13,
+      "salutation_to_body": 10,
+      "between_paragraphs": 10,
+      "body_to_signoff": 3,
+      "signoff_to_signature": 18
+    },
+    "rule_weight_pt": 0.7,
+    "contact_separator": "·",
+    "contact_separator_gap_em": 0.45,
+    "contact_rows": [
+      ["location", "phone", "email"],
+      ["linkedin", "website"]
+    ]
+  },
+  "sender": {
+    "title": "Founder & Engineer",
+    "phone": {
+      "url": "tel:+15203609215",
+      "label": "(520) 360-9215"
+    }
+  },
+  "recipient": {
+    "name": "Hiring Manager's Name",
+    "title": "Hiring Manager's Title",
+    "company": "Company Name",
+    "address": "Company Address",
+    "location": "City, State ZIP"
+  },
+  "letter": {
+    "date": "Month Day, Year",
+    "role": "Job Title",
+    "subject": "Re: {{role}}",
+    "salutation": "Dear {{recipient_name}},",
+    "paragraphs": [
+      "I’m excited to apply for the {{role}} position at {{company}}. With experience in (relevant field or specialty), particularly (two or three strengths from the job description), I’m confident I can help (the team, product, or company objective you would support).",
+      "In my role at (current or previous company), I (describe a relevant challenge or responsibility). By (briefly explain the action you took), I (state a quantified result or meaningful outcome). This experience strengthened my ability to (name a capability required for this role), which would help me contribute to (a specific responsibility from the job description).",
+      "I’m especially drawn to {{company}} because (give a specific, well-researched reason connected to its mission, product, customers, or recent work). My background in (relevant experience) and track record of (relevant achievement) align well with your need for someone who can (important requirement from the job posting).",
+      "Thank you for considering my application. I’d welcome the opportunity to discuss how my experience can support {{company}} as it (name a meaningful goal, challenge, or opportunity)."
+    ],
+    "signoff": "Sincerely,"
+  }
+}
